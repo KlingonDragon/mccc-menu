@@ -1,1 +1,1 @@
-<?=json_encode(glob('menu_data/*'.$_GET['q'].'*.json');?>
+<?=json_encode(glob('menu_data/*'.$_GET['q'].'*.json'))?>
