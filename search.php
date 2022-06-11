@@ -12,10 +12,15 @@ function i_case_pattern($string) {
 
 }
 ?>
-<?=$_GET['q']?>
+<?=$_GET['q'];?>
 <br/>
-<?=i_case_pattern($_GET['q'])?>
+<?=i_case_pattern($_GET['q']);?>
 <br/>
-<?=glob('menu_data/*'.i_case_pattern($_GET['q']).'*.json')?>
+<?=glob('menu_data/*'.i_case_pattern($_GET['q']).'*.json');?>
+<?php
+    foreach (glob('menu_data/*'.i_case_pattern($_GET['q']).'*.json') as $item) {?>
+    <br/>
+    <?=$item;?>
+<?php } ?>
 <br/>
-<?=json_encode(glob('menu_data/*'.i_case_pattern($_GET['q']).'*.json'))?>
+<?=json_encode(glob('menu_data/*'.i_case_pattern($_GET['q']).'*.json'));?>
