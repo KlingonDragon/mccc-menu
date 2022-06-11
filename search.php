@@ -10,10 +10,12 @@
         }
         return $result;
     }
-    $files = new RegexIterator(new RecursiveIteratorIterator(new RecursiveDirectoryIterator('menu_data')), '*'.i_case_pattern($_GET['q']).'*.json', RegexIterator::GET_MATCH);
-    $fileList = array();
-    foreach($files as $file) {
-        $fileList = array_merge($fileList, $file);
+    function recursive_glob($start, $middle, $end) {
+        $middle = i_case_pattern($middle);
+        $result = Array();
+        for ($i =0; $i <= 2; $i++) {
+            array_merge($result, glob($start.'/'.str_repeat('*/', $i).$middle.'*'.$end));
+        }
     }
 ?>
-<?=json_encode($fileList);?>
+<?=json_encode(recursive_glob('menu_data', $_GET['q'], '.json'));?>
