@@ -16,6 +16,6 @@ function i_case_pattern($string) {
 <br/>
 <?=i_case_pattern($_GET['q'])?>
 <br/>
-<?=i_case_pattern($glob('menu_data/*'.i_case_pattern($_GET['q']).'*.json'))?>
+<?=glob('menu_data/*'.i_case_pattern($_GET['q']).'*.json')?>
 <br/>
 <?=json_encode(glob('menu_data/*'.i_case_pattern($_GET['q']).'*.json'))?>
