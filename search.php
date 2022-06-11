@@ -19,7 +19,7 @@ if ($_GET['q']) {
 		$p .= $suffix;
 		return glob($p);
 	}
-	$strings = unserialize(file_get_contents('strings/'.$_SESSION['lang']));
+	$strings = unserialize(file_get_contents('strings/'.$_GET['lang']));
 	function xs($mystring) {global $strings;
 		if (is_array($mystring)) {
 			$mystring = ($_GET['desc'] ? $mystring[$_GET['desc']]:$mystring['default']);

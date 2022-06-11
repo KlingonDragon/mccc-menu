@@ -51,7 +51,7 @@ function search(searchtext) {
         return;
     }
 	let searchXHR = new XMLHttpRequest();
-    searchXHR.open('GET', `search.php?q=${searchtext}`);
+    searchXHR.open('GET', `search.php?q=${searchtext}&lang=${lang}`);
     searchXHR.onload = function () {
         document.getElementById('results').innerHTML = this.responseText;
     }
