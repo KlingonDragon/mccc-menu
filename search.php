@@ -20,11 +20,8 @@ if ($_GET['q']) {
 		return glob($p);
 	}
 	$strings = unserialize(file_get_contents('strings/'.$_GET['lang']));
-	function xs($mystring) {global $strings;
-		if (is_array($mystring)) {
-			$mystring = ($_GET['desc'] ? $mystring[$_GET['desc']]:$mystring['default']);
-		}
-		return ($strings[$mystring]?$strings[$mystring]:$mystring);
+	function xs($mystring) {
+		return file_get_contents('strings/'.$_GET['lang'].'/'.$mystring);
 	}
 	$results = ciglob('*/*'.$_GET['q'].'*.json');
 	if (count($results)) {
