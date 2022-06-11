@@ -1,0 +1,7 @@
+{
+    "name": "MCCC Interactive Menu",
+    "start_url": "https://mccc-menu.online",
+    "description": "A replica settings menu for the Sims 4 mod: MC Command Center>",
+    "theme_color": "#000000",
+    "display": "standalone"
+}
