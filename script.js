@@ -106,12 +106,26 @@ ${item.img ? `<img ${icon(item.img)}/>` : data.default ? (item.name == data.defa
 </button>
             `;
         }
-        $('section#path').innerHTML = decodeURI(path).replace(/\//g, ' > ')
+        $('section#path').innerHTML = pathStrings(path);
     }).catch(error => {
         console.error(`menuRender(${path}) - Fetch Error:`, error);
         alert(error);
         history.back();
     });
+}
+function pathStrings(path) {
+    let buildup = '|';
+    return path.split('/').reduce((old, next) => {
+        let hash = next.quickHash();
+        buildup += `/${next}`;
+        fetch(`/menu_data/${buildup.replace('|/', '')}.json`).then(response => {
+            if (!response.ok) { throw new Error('Network response was not OK'); }
+            return response.json()
+        }).then(data => {
+            $(`output#path_${hash}`).outerHTML = string(data.title);
+        });
+        return `${old} &gt; <output id="path_${hash}">${decodeURI(next)}</output>`;
+    }, '|').replace('| &gt; ', '');
 }
 function menu_desc(path) {
     let id = path.quickHash();
