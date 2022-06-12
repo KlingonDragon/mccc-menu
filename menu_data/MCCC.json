@@ -73,6 +73,12 @@
             "name": "0x0C199A27",
             "desc": "0x07742E20",
             "img": "0x9bc8fb15312261cb"
+        },
+        {
+            "link": "#Help",
+            "name": "help",
+            "desc": "help_link_text",
+            "img": "0x292B06E5346F7909"
         }
     ]
 }

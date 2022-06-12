@@ -22,10 +22,10 @@ const lang = ((supported_langs) => {
         }
     }
     return 'en';
-})(['en','de'])
+})(['cn','cs','da','de','en','es','fr','it','ja','ko','nl','pl','pt','ru','se'])
 
 function menuRender(path) {
-    path = path[0] == '#' ? path.substring(1): path;
+    path = path.split('#').pop();
     $('section#back').classList.toggle('hidden', path == 'MCCC');
     location.hash = path
     fetch(`/menu_data/${path}.json`).then(response => {
@@ -70,7 +70,7 @@ function menuRender(path) {
             }
             data.items.forEach(item => {
                 let button = document.createElement(item.link == 'self'? 'button':'a');
-                if (item.link != 'self') { button.href = `#${path}/${item.link}`; }
+                if (item.link != 'self') { button.href = `#${`${path}/${item.link}`.split('#').pop()}`; }
                 button.innerHTML = `
 ${item.img ? `<img ${icon(item.img)}/>` : data.default ? (item.name == data.default ? '<img src="img/icons/0xA3B15EEB3A5DB990.png"/>':'<img/>'): ''}
 <div class="info">
@@ -148,7 +148,8 @@ function search(searchtext) {
     searchXHR.send();
 }
 function string(id, replace = '', replace_with = '') {
-    if (!id) {return false;}
+    if (!id) { return false; }
+    if (id == 'mccc_desc') { return versionInfo(); }
     let stringStorage = localStorage.getItem(`string-${lang}-${id}`);
     if ((stringStorage = JSON.parse(stringStorage)) && (stringStorage.timestamp > Date.now() - (2 * 24 * 60 * 60 *1000))) {
         return stringStorage.string.replace(replace, replace_with);
@@ -164,10 +165,19 @@ function string(id, replace = '', replace_with = '') {
     });
     return `<output id="string_${id}">${id}</output>`;
 }
-
+function versionInfo() {
+    fetch('/version.php').then(response => response.json()).then(data => {
+        $(`output#version_mccc`).outerHTML = data.mccc;
+        $(`output#version_sims`).outerHTML = data.sims;
+    });
+    return `${string('mccc_version')} <output id="version_mccc"></output><br/>${string('sims_version')} <output id="version_sims"></output><br/>`
+}
 //On page load:
 onpopstate = event => menuRender(location.hash);
 window.addEventListener('DOMContentLoaded', () => {
     $('section#back button').onclick = () => { history.back(); };
     menuRender(location.hash || '#MCCC');
 });
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register('/worker.js')
+}
