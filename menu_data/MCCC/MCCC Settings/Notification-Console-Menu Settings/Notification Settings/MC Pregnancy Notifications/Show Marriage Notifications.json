@@ -1,0 +1,44 @@
+{
+    "title": "0x87EE6E44",
+    "all_desc": "0x82899AD4",
+    "desc": {
+        "default": "0x2E1A9DE0",
+        "2": "0x00891532",
+        "3": "0x1CBE7DA5",
+        "4": "0x65558642",
+        "5": "0x7CE1FBF7",
+        "6": "0x3BB4284E",
+        "7": "0xE855037E"
+    },
+    "default": "none",
+    "items": [
+        {
+            "link": "self",
+            "name": "none"
+        },
+        {
+            "link": "self&desc=2",
+            "name": "only_npc"
+        },
+        {
+            "link": "self&desc=3",
+            "name": "only_played"
+        },
+        {
+            "link": "self&desc=4",
+            "name": "related"
+        },
+        {
+            "link": "self&desc=5",
+            "name": "only_friends"
+        },
+        {
+            "link": "self&desc=6",
+            "name": "only_romance"
+        },
+        {
+            "link": "self&desc=7",
+            "name": "all"
+        }
+    ]
+}

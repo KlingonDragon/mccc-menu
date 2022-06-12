@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "link": "Move Families",
+            "name": "0x5EA51E8A"
+        },
+        {
+            "link": "Rename Same Gender",
+            "name": "0x9064B8F6"
+        },
+        {
+            "link": "Rename Opposite Sex",
+            "name": "0xE7C994C3"
+        },
+        {
+            "link": "Manually Rename Spouses",
+            "name": "0x48066916"
+        },
+        {
+            "link": "Use Traits For Marriage",
+            "name": "0xF14FA2F4"
+        },
+        {
+            "link": "Remove Service Limit",
+            "name": "0x13A81C9B"
+        }
+    ],
+    "title": "0x3203CE67"
+}

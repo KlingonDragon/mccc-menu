@@ -1,0 +1,1 @@
+Wenn die aktuelle Anzahl an Aliens in den Welten größer als diese Zahl ist, dann werden keine Aliens mehr geboren.  Dies wird nicht das Generieren von Aliens verhindern, es werden nur keine mehr geboren.  -1 = Standard, keine Begrenzung.

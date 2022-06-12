@@ -1,0 +1,1 @@
+Entrer le niveau pour la compétence {0.String} entre 1 et {1.Number} (écrire &quot; 1&quot; remet à zéro la compétence et de ce fait, elle deviendra une compétence jamais acquise). Le niveau actuel est {2.Number}.

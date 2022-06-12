@@ -1,0 +1,1 @@
+Reálný počet milisekund na simí sekundu. V základu je to 25, méně než to způsobí, že dny budou ubíhat rychleji. Více než to způsobí, že dny budou ubíhat pomaleji.

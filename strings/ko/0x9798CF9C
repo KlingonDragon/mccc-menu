@@ -1,0 +1,1 @@
+Prevents a Sim from becoming pregnant through random NPC pregnancy checks if they are within the specified number of days until they reach the end of the oldest age span available in the Age To Run Pregnancy setting.

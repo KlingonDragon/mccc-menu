@@ -1,0 +1,22 @@
+{
+    "title": "0x59D7EDA7",
+    "desc": "0x0C49327C",
+    "default": [
+        "adult",
+        "elder"
+    ],
+    "items": [
+        {
+            "link": "self",
+            "name": "youngadult"
+        },
+        {
+            "link": "self",
+            "name": "adult"
+        },
+        {
+            "link": "self",
+            "name": "elder"
+        }
+    ]
+}

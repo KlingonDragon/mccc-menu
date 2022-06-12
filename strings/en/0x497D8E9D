@@ -1,0 +1,1 @@
+If enabled, then households allowed in an import will be further filtered based on include and bypass tags.  Disabled by default because it increases access-time when loading households.

@@ -1,0 +1,22 @@
+{
+    "title": "0x38D83353",
+    "desc": "0xE38BF653",
+    "default": [
+        "npcs",
+        "played"
+    ],
+    "items": [
+        {
+            "link": "self",
+            "name": "npcs"
+        },
+        {
+            "link": "self",
+            "name": "played"
+        },
+        {
+            "link": "self",
+            "name": "active"
+        }
+    ]
+}

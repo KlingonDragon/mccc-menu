@@ -1,0 +1,1 @@
+Jeśli opcja jest włączona, kod „ShowLiveEditObjects” (bb.showliveeditobjects) będzie zawsze włączany przy uruchomieniu gry. Uwaga: polecenie bb.showhiddenobjects jest zawsze automatycznie uaktywniane, aby ta opcja działała poprawnie.

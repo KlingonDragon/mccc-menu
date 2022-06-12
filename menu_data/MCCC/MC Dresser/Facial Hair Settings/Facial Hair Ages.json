@@ -1,0 +1,31 @@
+{
+    "title": "0xD22EFDA9",
+    "desc": "0x4984625C",
+    "default": "youngadult",
+    "items": [
+        {
+            "link": "self",
+            "name": "toddler"
+        },
+        {
+            "link": "self",
+            "name": "child"
+        },
+        {
+            "link": "self",
+            "name": "teen"
+        },
+        {
+            "link": "self",
+            "name": "youngadult"
+        },
+        {
+            "link": "self",
+            "name": "adult"
+        },
+        {
+            "link": "self",
+            "name": "elder"
+        }
+    ]
+}

@@ -4,6 +4,26 @@
         {
             "link": "Auto-Save",
             "name": "0x7678A577"
+        },
+        {
+            "link": "Relationship Settings",
+            "name": "0xC68B68C0"
+        },
+        {
+            "link": "Notification-Console-Menu Settings",
+            "name": "0x5A037DE6"
+        },
+        {
+            "link": "Money Settings",
+            "name": "0x17DA3B08"
+        },
+        {
+            "link": "Gameplay Settings",
+            "name": "0x65C3DC40"
+        },
+        {
+            "link": "Set Age Span Duration",
+            "name": "0x9C181D7E"
         }
     ]
 }

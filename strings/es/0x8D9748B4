@@ -1,0 +1,1 @@
+Define el número de relaciones que se van a olvidar cuando se haga la limpieza de relaciones. Si todo lo que queda es este número de relaciones, no habrá limpieza adicional.

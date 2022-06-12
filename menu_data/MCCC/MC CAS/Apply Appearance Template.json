@@ -1,0 +1,19 @@
+{
+    "title": "0xF70C7D01",
+    "desc": "0xB6229D64",
+    "default": "0x56592781",
+    "items": [
+        {
+            "link": "self",
+            "name": "0x56592781"
+        },
+        {
+            "link": "self",
+            "name": "0xE73BE884"
+        },
+        {
+            "link": "self",
+            "name": "0x4AAA817F"
+        }
+    ]
+}

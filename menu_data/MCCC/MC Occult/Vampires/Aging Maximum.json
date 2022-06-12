@@ -1,0 +1,27 @@
+{
+    "title": "0x511465F5",
+    "desc": "0x05DF2EDD",
+    "default": "youngadult",
+    "items": [
+        {
+            "link": "self",
+            "name": "normal"
+        },
+        {
+            "link": "self",
+            "name": "teen"
+        },
+        {
+            "link": "self",
+            "name": "youngadult"
+        },
+        {
+            "link": "self",
+            "name": "adult"
+        },
+        {
+            "link": "self",
+            "name": "elder"
+        }
+    ]
+}

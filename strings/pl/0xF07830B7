@@ -1,0 +1,1 @@
+Jeśli aktualna liczba syren na świecie jest wyższa niż ta wartość, więcej syren się nie urodzi. Ta opcja sprawi jedynie, że syreny nie będą się więcej rodzić, ale nadal będą mogły się generować. Wartość: -1 = brak limitu.

@@ -1,0 +1,1 @@
+El control en zona valida las partes del cuerpo, en contrario de los valores de la plantilla cuando los Sims transitan dentro de la zona donde esté el Sim activo.\nEste es el método de control automático menos eficiente, ya que se ejecuta en todos los Sims que transiten la zona de entrada a un solar.\n\n¡¡No se recomienda su uso a largo plazo!!

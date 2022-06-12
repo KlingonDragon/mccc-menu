@@ -1,0 +1,1 @@
+Verander de Carrière voortgang om langzamer of sneller te zijn. Geldige instellingen zijn van -50 tot 10 met een standaardwaarde van nul. Negatief is een langzamere vooruitgang, positief is sneller. Elk negatief punt is -10%, dus -10 is 100% langzamer, -20 is 200% langzamer, enz. Positief is 100% per punt, dus 2 is 200% sneller tot 10 wat 1000% sneller is.

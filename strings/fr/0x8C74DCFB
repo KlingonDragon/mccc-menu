@@ -1,0 +1,1 @@
+Modifier ce paramètre changera la vitesse à laquelle les besoins du type de Sim spécifié déclineront. 100 = normal. 0 = Pas de déclin des besoins. 200 = Déclin doublé.

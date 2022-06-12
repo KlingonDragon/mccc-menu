@@ -1,0 +1,19 @@
+{
+    "desc": "0x96760C98",
+    "items": [
+        {
+            "link": "self",
+            "name": "0xD9B190DC"
+        },
+        {
+            "link": "self",
+            "name": "0x20A73802"
+        },
+        {
+            "link": "self",
+            "name": "All"
+        }
+    ],
+    "title": "0x48066916",
+    "default": "0xD9B190DC"
+}

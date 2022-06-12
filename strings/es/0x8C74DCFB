@@ -1,0 +1,1 @@
+Modificando este ajuste, será cambiada la velocidad del descenso de las necesidades para este tipo de Sim.\n\nEl valor por defecto es de 100 (normal).\nUn ajuste de 0 no disminuirán las necesidades  y un ajuste de 200 las necesidades disminuirán el doble de rápido.

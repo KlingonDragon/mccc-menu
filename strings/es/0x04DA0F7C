@@ -1,0 +1,1 @@
+Especifica el número de milisegundos en tiempo real por cada segundo Sim.\n\nEl valor por defecto es de 25.\nUn valor menor hace que los días pasen más rápidos y un valor mayor hace que los días pasen más lentos.

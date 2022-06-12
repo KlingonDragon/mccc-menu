@@ -6,7 +6,73 @@
             "link": "MCCC Settings",
             "name": "0xCD2EA8E6",
             "desc": "0x6039C801",
-            "img": "0x99F8BA8565097AF7"
+            "img": "0x99f8ba8565097af7"
+        },
+        {
+            "link": "MC CAS",
+            "name": "0x9F3AFD77",
+            "desc": "0xD7D60A27",
+            "img": "0xa4de8a400c011f10"
+        },
+        {
+            "link": "MC Career",
+            "name": "0x5ACD7A7D",
+            "desc": "0x87AE2FBB",
+            "img": "0xc416bf0abdb38640"
+        },
+        {
+            "link": "MC Cleaner",
+            "name": "0x25224441",
+            "desc": "0x4C0E4454",
+            "img": "0x8fd50163a417cf7e"
+        },
+        {
+            "link": "MC Clubs",
+            "name": "0x68D5E7CB",
+            "desc": "0xAEF4E317",
+            "img": "0x910cf1185f2afbe0"
+        },
+        {
+            "link": "MC Dresser",
+            "name": "0xAEE08715",
+            "desc": "0x2D9F1318",
+            "img": "0xa7224f22a8d8b720"
+        },
+        {
+            "link": "MC Occult",
+            "name": "0xCC5327CD",
+            "desc": "0xBD2B6888",
+            "img": "0x99b197fe6e18b15c"
+        },
+        {
+            "link": "MC Population",
+            "name": "0x9A223E93",
+            "desc": "0xD6A4C7D7",
+            "img": "0x900c2b49bda998ed"
+        },
+        {
+            "link": "MC Pregnancy",
+            "name": "0x923468DF",
+            "desc": "0xBB6F335B",
+            "img": "0xcd9a5878c4ff433a"
+        },
+        {
+            "link": "MC Tuner",
+            "name": "0xA5200215",
+            "desc": "0x740CA181",
+            "img": "0xa680af32012b20be"
+        },
+        {
+            "link": "MC Woohoo",
+            "name": "0x33C78479",
+            "desc": "0x0BD89212",
+            "img": "0x83f5cda91a5db4ba"
+        },
+        {
+            "link": "Reset Settings",
+            "name": "0x0C199A27",
+            "desc": "0x07742E20",
+            "img": "0x9bc8fb15312261cb"
         }
     ]
 }

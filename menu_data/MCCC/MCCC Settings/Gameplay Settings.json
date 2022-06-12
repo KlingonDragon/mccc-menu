@@ -1,0 +1,45 @@
+{
+    "title": "0x65C3DC40",
+    "items": [
+        {
+            "link": "Pause on zone",
+            "name": "0x2D6D8F8A"
+        },
+        {
+            "link": "Game Time Speed",
+            "name": "0x1FBC780F"
+        },
+        {
+            "link": "Sims Die On Lot",
+            "name": "0x51C1CDBF"
+        },
+        {
+            "link": "Skill Difficulty Adjustment",
+            "name": "0xBCC1FE04"
+        },
+        {
+            "link": "Adopt Neglected Child",
+            "name": "0x2F1CB910"
+        },
+        {
+            "link": "Maximum Household Size",
+            "name": "0x920B158D"
+        },
+        {
+            "link": "Motive Decay",
+            "name": "0xBDEA781D"
+        },
+        {
+            "link": "Teleport Sim Overlap",
+            "name": "0x3698F5B5"
+        },
+        {
+            "link": "Use Random Aging",
+            "name": "0x40EFC103"
+        },
+        {
+            "link": "Maximum Rename Length",
+            "name": "0x1BC01433"
+        }
+    ]
+}

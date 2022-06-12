@@ -1,0 +1,23 @@
+{
+    "desc": "0x4AC70B4B",
+    "items": [
+        {
+            "link": "self",
+            "name": "baby"
+        },
+        {
+            "link": "self",
+            "name": "toddler"
+        },
+        {
+            "link": "self",
+            "name": "child"
+        },
+        {
+            "link": "self",
+            "name": "teen"
+        }
+    ],
+    "title": "0x0806E874",
+    "default": "all"
+}

@@ -1,0 +1,1 @@
+This setting determines the maximum number of pets that will be adopted into a household for automatic stray move-in/adoption.  The default is zero, which is none.  -1 is unlimited, or a specific number can be entered to prevent households filling-up with strays.  Automatic stray move-in prefers households on lots, which can make this happen if enough strays exist.

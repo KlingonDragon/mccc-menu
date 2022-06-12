@@ -1,0 +1,11 @@
+{
+    "desc": "0xAF59471A",
+    "items": [
+        {
+            "link": "self",
+            "name": "restaurant"
+        }
+    ],
+    "title": "dine_out",
+    "default": "all_lots"
+}

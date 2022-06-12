@@ -1,0 +1,15 @@
+{
+    "title": "0x961ADA53",
+    "desc": "0x6615237D",
+    "default": "none",
+    "items": [
+        {
+            "link": "self",
+            "name": "female"
+        },
+        {
+            "link": "self",
+            "name": "male"
+        }
+    ]
+}

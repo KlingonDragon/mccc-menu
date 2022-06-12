@@ -1,0 +1,1 @@
+Antalet real-time milli-sekunder för varje Sim-sekund. Utgångspunkten är 25 och lägre än det får dagarna att gå fortare och högre får dagarna att gå långsammare.

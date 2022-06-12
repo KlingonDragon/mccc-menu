@@ -1,0 +1,1 @@
+Si el número actual de alienígenas en el mundo es mayor al número asignado, entonces ya no nacerán más alienígenas. Esto no impedirá que más alienígenas se generen, solo en los nacimientos.\n\nEl valor por defecto es de  -1 (sin límite).

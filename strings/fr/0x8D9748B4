@@ -1,0 +1,1 @@
+Définit le nombre de relations à laisser lors de l'execution du nettoyage des relations. Si ce nombre est identiques aux relations restantes, le nettoyage n'en supprimera pas d'autre.

@@ -1,0 +1,1 @@
+When running the Clean Culled Sims process, don't delete a ghost if they are in the family tree of the active family members.

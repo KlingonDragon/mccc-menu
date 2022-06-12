@@ -1,0 +1,1 @@
+Zone-in Controle valideert de lichaamsdelen van een Sim aan de hand van de sjabloon waardes wanneer een Sim in zones op een kavel is. Dit is de minst efficiënte controle methode aangezien het wordt uitgevoerd op alle Sims terwijl ze in de zone verschijnen. Niet aanbevolen voor langdurig gebruik!!

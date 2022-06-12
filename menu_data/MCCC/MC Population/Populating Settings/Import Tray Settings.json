@@ -1,0 +1,33 @@
+{
+    "items": [
+        {
+            "link": "Import Tray Sim Percent",
+            "name": "0x2E021A8B"
+        },
+        {
+            "link": "Import Tray Sim Type",
+            "name": "0x37F91E3A"
+        },
+        {
+            "link": "Limit Import By Tags",
+            "name": "0x7E623EE6"
+        },
+        {
+            "link": "Include Gender Options",
+            "name": "0x896F1905"
+        },
+        {
+            "link": "Include Clothing",
+            "name": "0xA4903212"
+        },
+        {
+            "link": "Import Sim Name",
+            "name": "0x99BED4AF"
+        },
+        {
+            "link": "Import Bypass Appearance",
+            "name": "0x6E856F65"
+        }
+    ],
+    "title": "0xC72D3DD0"
+}

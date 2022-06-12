@@ -1,0 +1,1 @@
+Zmień prędkość zdobywania doświadczenia Wampirów. Prawidłowe wartości mieszczą się w zakresie od -10 do 10. 0 - wartość domyślna. Ujemne liczby to wolniejsze zdobywanie doświadczenia, dodatnie to szybsze zdobywanie doświadczenia. 2 to 2 razy szybsze zdobywania, -2 to 2 razy wolniejsze zdobywanie. 

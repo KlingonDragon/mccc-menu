@@ -1,0 +1,1 @@
+Om aktiverat, kommer ShowLiveObjects-fusken (bb.showliveeditobjects) alltid att aktiveras när spelet laddas. Observera att kommandot bb.showhiddenobjects alltid körs automatiskt för att den här inställningen ska fungera korrekt.

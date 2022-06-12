@@ -1,0 +1,46 @@
+{
+    "title": "0x1DD6C539",
+    "default": "walk_default",
+    "items": [
+        {
+            "link": "self",
+            "name": "walk_default"
+        },
+        {
+            "link": "self",
+            "name": "walk_perky"
+        },
+        {
+            "link": "self",
+            "name": "walk_swagger"
+        },
+        {
+            "link": "self",
+            "name": "walk_snooty"
+        },
+        {
+            "link": "self",
+            "name": "walk_feminine"
+        },
+        {
+            "link": "self",
+            "name": "walk_goofy"
+        },
+        {
+            "link": "self",
+            "name": "walk_tough"
+        },
+        {
+            "link": "self",
+            "name": "walk_bouncy"
+        },
+        {
+            "link": "self",
+            "name": "walk_sluggish"
+        },
+        {
+            "link": "self",
+            "name": "walk_creepy"
+        }
+    ]
+}

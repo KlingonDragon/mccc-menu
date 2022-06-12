@@ -1,0 +1,33 @@
+{
+    "title": "0x17DA3B08",
+    "items": [
+        {
+            "link": "Pay Child Support",
+            "name": "0x2650C306"
+        },
+        {
+            "link": "Child Support Percent",
+            "name": "0xE71DCDEF"
+        },
+        {
+            "link": "Change Bills Percent",
+            "name": "0x6C0CE708"
+        },
+        {
+            "link": "Apartment Bill Percent",
+            "name": "0xC67BB15B"
+        },
+        {
+            "link": "Auto-Pay Bills",
+            "name": "0x14156DB3"
+        },
+        {
+            "link": "Inheritance Sim Type",
+            "name": "0x48EC2348"
+        },
+        {
+            "link": "Inheritance Spouse First",
+            "name": "0x489EA11C"
+        }
+    ]
+}

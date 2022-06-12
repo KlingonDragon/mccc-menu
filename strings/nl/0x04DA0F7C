@@ -1,0 +1,1 @@
+Het aantal echte-tijd milliseconden voor iedere Sim seconde. Standaard is 25. Minder dan dit zorgt ervoor dat dagen sneller gaan. Meer dan dit zorgt ervoor dat dagen langzamer gaan.

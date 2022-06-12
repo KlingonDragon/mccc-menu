@@ -1,0 +1,18 @@
+{
+    "title": "0x23A0435C",
+    "desc": "0xA6CE7327",
+    "default": [
+        "female",
+        "male"
+    ],
+    "items": [
+        {
+            "link": "self",
+            "name": "female"
+        },
+        {
+            "link": "self",
+            "name": "male"
+        }
+    ]
+}

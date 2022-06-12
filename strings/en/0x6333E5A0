@@ -1,0 +1,1 @@
+If the current number of spellcasters in the world is greater than this number, then no more spellcasters will be born.  This will not keep more spellcasters from being generated, only born.  -1 = default, no limit.

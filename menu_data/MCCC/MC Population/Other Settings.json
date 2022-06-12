@@ -1,0 +1,33 @@
+{
+    "items": [
+        {
+            "link": "Bypass Sim Culling",
+            "name": "0x852167F7"
+        },
+        {
+            "link": "Bypass Clown Walkby",
+            "name": "0xBA5F62D5"
+        },
+        {
+            "link": "No Reaper Stalking",
+            "name": "0xF5C1DACD"
+        },
+        {
+            "link": "Randomize Visiting Sims",
+            "name": "0x876ACD4E"
+        },
+        {
+            "link": "Disable Immortal Sims",
+            "name": "0xD2631B42"
+        },
+        {
+            "link": "Maximum Sims In Zone",
+            "name": "0xB40A5EFF"
+        },
+        {
+            "link": "Adjust Sims on Lot",
+            "name": "0x9FC9017F"
+        }
+    ],
+    "title": "0x42F43716"
+}

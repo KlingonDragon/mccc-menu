@@ -1,0 +1,33 @@
+{
+    "title": "0xE7C994C3",
+    "desc": {
+        "default": "0x1CDAD55A",
+        "1": "0x1F42F661",
+        "2": "0x08E15960",
+        "3": "0x9BFAF085",
+        "4": "0x0E7F8956"
+    },
+    "default": "0xD4CACB8F",
+    "items": [
+        {
+            "link": "self&desc=1",
+            "name": "0x2C640E28"
+        },
+        {
+            "link": "self&desc=2",
+            "name": "0x3B3850D7"
+        },
+        {
+            "link": "self&desc=3",
+            "name": "0x7B03FF39"
+        },
+        {
+            "link": "self&desc=4",
+            "name": "0x40D80D1A"
+        },
+        {
+            "link": "self",
+            "name": "0xD4CACB8F"
+        }
+    ]
+}

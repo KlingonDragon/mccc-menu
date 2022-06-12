@@ -1,0 +1,1 @@
+Importując Sima z biblioteki, aby zastąpić losowo tworzonego Sima, te ustawienie kontroluje różne sytuacje, w których zostanie użyte nazwisko zaimportowanego Sima albo zostanie wykorzystane nazwisko losowo stworzonego Sima.

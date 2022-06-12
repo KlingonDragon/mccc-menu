@@ -1,0 +1,37 @@
+{
+    "items": [
+        {
+            "link": "Allow Pregnancy Aging",
+            "name": "0x9DB2604C"
+        },
+        {
+            "link": "Pause on Playable Labor",
+            "name": "0xDDBFD85F"
+        },
+        {
+            "link": "Pause Sims Pregnancy",
+            "name": "0x4EBFF4B9"
+        },
+        {
+            "link": "Auto-Marry Percentage",
+            "name": "0x15EC4468"
+        },
+        {
+            "link": "Pregnancy Duration",
+            "name": "0x34C9D609"
+        },
+        {
+            "link": "Use Traits For Pregnancy",
+            "name": "0x55C9BE96"
+        },
+        {
+            "link": "Use Random Moods",
+            "name": "0x4644F96A"
+        },
+        {
+            "link": "Random Mood Duration",
+            "name": "0xA2E64FE6"
+        }
+    ],
+    "title": "0x35C10CF5"
+}

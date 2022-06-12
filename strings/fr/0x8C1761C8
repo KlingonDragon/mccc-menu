@@ -1,0 +1,1 @@
+Ajuste le gain d'expérience Vampirique pour être plus rapide ou plus lent. Les limites vont de -10 à 10, zéro étant la valeur par défaut. Les valeurs négatives ralentissent le gain d'xp, les valeurs positives d'accélèrent. 2 correspond à 2 fois plus vite. -2 correspond à 2 fois plus lent, etc.

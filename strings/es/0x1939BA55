@@ -1,0 +1,1 @@
+Especifica si un Sim debe llevarse a sus hijos con ellos cuando se muden debido a una ruptura. Este es el porcentaje de probabilidad de que los niños se trasladen:\n\nCon un ajuste de 0 no habrán traslados y un ajuste de 100 serán siempre o algo entre una probabilidad aleatoria.

@@ -1,0 +1,18 @@
+{
+    "title": "0x4002F796",
+    "desc": "0x516A5AF4",
+    "default": [
+        "female",
+        "male"
+    ],
+    "items": [
+        {
+            "link": "MCCC_MC Dresser_Makeup Settings_Makeup Genders",
+            "name": "female"
+        },
+        {
+            "link": "MCCC_MC Dresser_Makeup Settings_Makeup Genders",
+            "name": "male"
+        }
+    ]
+}

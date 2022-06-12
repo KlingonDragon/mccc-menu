@@ -1,0 +1,28 @@
+{
+    "title": "0xE55A3324",
+    "desc": {
+        "default": "0x1A0CC31F",
+        "1": "0xAE75411F",
+        "3": "0xFF59EF2E",
+        "4": "0xCC26DDF8"
+    },
+    "default": "0x4AC9A786",
+    "items": [
+        {
+            "link": "self&desc=1",
+            "name": "0x090BC2D8"
+        },
+        {
+            "link": "self",
+            "name": "0x4AC9A786"
+        },
+        {
+            "link": "self&desc=3",
+            "name": "0x92448343"
+        },
+        {
+            "link": "self&desc=4",
+            "name": "0x2BF77A0D"
+        }
+    ]
+}

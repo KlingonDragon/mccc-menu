@@ -1,0 +1,19 @@
+{
+    "title": "0x9FE1BCE1",
+    "desc": "0x5CBE657F",
+    "default": "none",
+    "items": [
+        {
+            "link": "self",
+            "name": "none"
+        },
+        {
+            "link": "self",
+            "name": "0x5C2348FB"
+        },
+        {
+            "link": "self",
+            "name": "0x0BFC065B"
+        }
+    ]
+}

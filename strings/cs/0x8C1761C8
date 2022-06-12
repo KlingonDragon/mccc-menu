@@ -1,0 +1,1 @@
+Změní upíří získávání zkušeností na pomalejší nebo rychlejší. Správné nastavení jsou čísla od -10 do 10, se základní hodnotou 0. Negativní čísla jsou pomalejší postup, kladná znamenají rychlejší postup. 2 bude 2x rychlejší, -2 je 2x pomalejší.

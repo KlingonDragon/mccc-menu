@@ -1,0 +1,23 @@
+{
+    "title": "0xFE9362DB",
+    "desc": "0xB4892A9B",
+    "default": "0x8AF9EC34",
+    "items": [
+        {
+            "link": "self",
+            "name": "none"
+        },
+        {
+            "link": "self",
+            "name": "0x8AF9EC34"
+        },
+        {
+            "link": "self",
+            "name": "0x81975331"
+        },
+        {
+            "link": "self",
+            "name": "0x9F2A82C6"
+        }
+    ]
+}

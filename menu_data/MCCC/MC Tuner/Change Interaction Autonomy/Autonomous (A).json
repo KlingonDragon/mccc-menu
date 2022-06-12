@@ -1,0 +1,6 @@
+{
+    "desc": "Disabling this setting will turn-off autonomous (A) interactions for Sims.",
+    "enabled_disabled": true,
+    "title": "Autonomous (A)",
+    "default": "0xF8CBBF4C"
+}

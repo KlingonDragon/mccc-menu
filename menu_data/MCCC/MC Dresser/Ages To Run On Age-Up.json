@@ -1,0 +1,31 @@
+{
+    "title": "0x88733227",
+    "desc": "0x21CE2EDE",
+    "default": "none",
+    "items": [
+        {
+            "link": "self",
+            "name": "toddler"
+        },
+        {
+            "link": "self",
+            "name": "child"
+        },
+        {
+            "link": "self",
+            "name": "teen"
+        },
+        {
+            "link": "self",
+            "name": "youngadult"
+        },
+        {
+            "link": "self",
+            "name": "adult"
+        },
+        {
+            "link": "self",
+            "name": "elder"
+        }
+    ]
+}

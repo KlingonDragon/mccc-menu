@@ -1,0 +1,1 @@
+Zone kontrol validerer simmeres kropsdele mod skabelon værdier, når en simmer går ind i en ny zone. Dette er den mindst effektive automatiske kontrol metode, da den køres på alle simmere, når de når en zone. Anbefales ikke til langvarig brug!!

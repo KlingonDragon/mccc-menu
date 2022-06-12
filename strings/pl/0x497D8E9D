@@ -1,0 +1,1 @@
+Jeśli włączone, rodziny zezwolone do zaimportowania będą dodatkowo filtrowani, opierając się na znacznikach zawierających (#mccc_include) i pomijających (#mccc_bypass). Domyślnie wyłączone, ponieważ wydłuża to czas ładowania rodzin.

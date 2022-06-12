@@ -1,0 +1,1 @@
+Introduce el nivel de la habilidad {0.String} entre 1 y {1.Number}.\n\nAl introducir 1, basicamente restablece la habilidad como no aprendida.\nEl nivel actual es: {2.Number}.

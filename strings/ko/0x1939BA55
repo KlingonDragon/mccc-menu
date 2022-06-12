@@ -1,0 +1,1 @@
+Specifies whether a Sim should take their children with them when they move-out due to a break-up.  It is the percent chance the children will move so it can be set to 0 for never, 100 for always or something in between for a random chance.

@@ -1,0 +1,1 @@
+Den maximala tillåtna längden för För- och Efternamn var när man byter namn på en sim med MCCC. Standard är 14. VARNING: Att ange ett för- eller efternamn längre än 14 tecken resulterar i en CAS error om simmen ändras och sparas.

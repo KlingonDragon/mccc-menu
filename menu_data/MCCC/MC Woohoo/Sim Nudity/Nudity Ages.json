@@ -1,0 +1,26 @@
+{
+    "title": "0x5BDB4251",
+    "desc": "0x0358912C",
+    "default": [
+        "youngadult",
+        "adult"
+    ],
+    "items": [
+        {
+            "link": "self",
+            "name": "teen"
+        },
+        {
+            "link": "self",
+            "name": "youngadult"
+        },
+        {
+            "link": "self",
+            "name": "adult"
+        },
+        {
+            "link": "self",
+            "name": "elder"
+        }
+    ]
+}

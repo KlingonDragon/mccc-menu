@@ -1,0 +1,31 @@
+{
+    "title": "0x020F8F70",
+    "desc": "0x371F4DE7",
+    "deefault": ", , ",
+    "items": [
+        {
+            "link": "self",
+            "name": "toddler"
+        },
+        {
+            "link": "self",
+            "name": "child"
+        },
+        {
+            "link": "self",
+            "name": "teen"
+        },
+        {
+            "link": "self",
+            "name": "youngadult"
+        },
+        {
+            "link": "self",
+            "name": "adult"
+        },
+        {
+            "link": "self",
+            "name": "elder"
+        }
+    ]
+}

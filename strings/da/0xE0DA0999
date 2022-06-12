@@ -1,0 +1,1 @@
+Aktiveret er ShowLiveObjects snydekoden (bb.showliveeditobjects) altid aktiveret ved spillets start. Bemærk at bb.showhiddenobjects kommandoen altid skal automatisk være aktiveret for at denne indstilling fungerer korrekt.

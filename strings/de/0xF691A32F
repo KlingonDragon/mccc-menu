@@ -1,0 +1,1 @@
+Ändern der Weltzeit um die angegebenen Tages- und Stundenoffsets.  Es kann notwendig sein, das Spiel zu speichern/beenden/neu zu starten oder die Zone zu wechseln, nachdem Sie eine Zeitänderung vorgenommen haben, um interne Spielalarme zurückzusetzen und das Einfrieren von Interaktionen zu verhindern.

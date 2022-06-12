@@ -1,0 +1,1 @@
+Ajustando este porcentaje, se aumentará o disminuirá el monto de las facturas semanales.\n\nEl valor por defecto es de 0 (facturación estándar).\nUn ajuste de -100 desaparecerán las facturas y un ajuste de 100 harán las facturas el doble de caras.

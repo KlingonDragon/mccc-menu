@@ -1,0 +1,1 @@
+Allows a version check against Deaderpool's website to be made to determine if a newer version of MCCC should be in use.  Options include: 'Never', which relies on the player manually checking for updates, 'When Game Updates' will check when the Sims 4 version is updated and 'Always' checks everytime a game is started.

@@ -1,0 +1,1 @@
+Il controllo dell’ingresso in Zona permette al Sim di avere delle parti del corpo che sono diverse dai valori del Modello quando il Sim sarà presente in un lotto. Questo è il metodo meno efficiente in quanto funziona su tutti i Sim che sono presenti della zona designata. Non è raccomandato per l’utilizzo prolungato!!

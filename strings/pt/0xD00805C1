@@ -1,0 +1,1 @@
+Pesquise todos os traços válidos que podem ser removidos do Sim. O texto de entrada pode ser uma ou mais palavras contidas no nome do traço, não no nome de exibição do traço (ex: trait_female). Se nenhum texto for inserido, todos os traços serão mostrados.

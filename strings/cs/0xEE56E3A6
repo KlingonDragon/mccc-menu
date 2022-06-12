@@ -1,0 +1,1 @@
+Pokud povoleno, LE se objeví poprvé, co se stane v určité zóně, dále se žádné upozornění nezobrazí, dokud se hráč nepřesune do jiné zóny nebo učiní něco většího, co by mohlo spustit reload pozemku. Pokud zakázáno, LE upozornění se objeví pokaždé, co se exception stane. Povšimněte si, že mc_cmd_center.log errors se budou objevovat pro každý error, který nastane.

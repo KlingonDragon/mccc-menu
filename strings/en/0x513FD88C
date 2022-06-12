@@ -1,0 +1,1 @@
+The maximum length allowed for First and Last Name each when renaming a Sim with MCCC.  Default is 14.  WARNING: Specifying a first or last name longer than 14 characters will result in a CAS error if that Sim is modified and saved.

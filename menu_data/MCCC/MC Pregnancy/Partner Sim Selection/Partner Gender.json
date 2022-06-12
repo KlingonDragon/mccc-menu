@@ -1,0 +1,15 @@
+{
+    "desc": "0x858B0482",
+    "items": [
+        {
+            "link": "self",
+            "name": "female"
+        },
+        {
+            "link": "self",
+            "name": "male"
+        }
+    ],
+    "title": "0xE150348C",
+    "default": "male_only"
+}

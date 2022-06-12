@@ -1,0 +1,1 @@
+Cambia la velocidad de obtención de experiencia vampírica, haciéndola más lenta o más rápida.\n\nLos valores van desde -10 a 10, con 0 por defecto.\nUn valor negativo hará el progreso más lento y un valor positivo hará el progreso más rápido.\nEl valor 2 sería el doble de rápido, y el valor -2 sería el doble de lento.

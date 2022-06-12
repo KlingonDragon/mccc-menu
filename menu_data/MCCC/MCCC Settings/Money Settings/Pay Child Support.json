@@ -1,0 +1,23 @@
+{
+    "title": "0x2650C306",
+    "desc": "0xBD8B24E5",
+    "default": "none",
+    "items": [
+        {
+            "link": "self",
+            "name": "all"
+        },
+        {
+            "link": "self",
+            "name": "only_married"
+        },
+        {
+            "link": "self",
+            "name": "only_unmarried"
+        },
+        {
+            "link": "self",
+            "name": "none"
+        }
+    ]
+}

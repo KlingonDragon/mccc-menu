@@ -1,0 +1,1 @@
+Aktiveret: Der vises en meddelse første gang en LE sker i den aktuelle xone. Ingen andre meddelselser vises, før spilleren skifter til en anden zone eller gør noget andet der udløser den nuværende grund til at indlæse igen. &#xA;Deaktiveret: Der vil vises en meddelelse, at hver gang en exeption opstår. Bemærk at  mc_cmd_center.log fejl stadig vises for hver fejl der opstår.

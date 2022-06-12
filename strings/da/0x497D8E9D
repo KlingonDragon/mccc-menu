@@ -1,0 +1,1 @@
+Aktiveret, vil husholdninger der er tilladt til at blive importeret, blive yderligere filtreret, baseret på inkluderet og undgået markeringer. Deaktiveret er standard, fordi det øger adgangstiden ved indlæsning af husholdninger.

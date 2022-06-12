@@ -1,0 +1,1 @@
+Defines the maximum number of Sims allowed in a household.  Note that if this is changed to more than 8, CAS will not function correctly to show all Sims in the household.

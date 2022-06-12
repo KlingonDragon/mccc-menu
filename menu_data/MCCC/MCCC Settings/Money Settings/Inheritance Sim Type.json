@@ -1,0 +1,31 @@
+{
+    "title": "0x48EC2348",
+    "desc": "0x518B798E",
+    "default": "none",
+    "items": [
+        {
+            "link": "self",
+            "name": "none"
+        },
+        {
+            "link": "self",
+            "name": "only_npc"
+        },
+        {
+            "link": "self",
+            "name": "only_played"
+        },
+        {
+            "link": "self",
+            "name": "only_played-npc"
+        },
+        {
+            "link": "self",
+            "name": "only_active"
+        },
+        {
+            "link": "self",
+            "name": "all"
+        }
+    ]
+}

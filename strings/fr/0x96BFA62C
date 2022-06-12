@@ -1,0 +1,1 @@
+La vérification par zone valide le changement des valeurs des parties du corps du Sim sur base des valeurs du modèle des zones des Sims qui sont à modifier. Cette méthode est moins efficace que la vérification automatique qui, elle, est exécutée sur tous les Sims programmés dans la zone. Non recommandé pour une utilisation à long terme !!

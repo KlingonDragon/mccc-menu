@@ -1,0 +1,15 @@
+{
+    "desc": "0xB9D03728",
+    "items": [
+        {
+            "link": "self",
+            "name": "adult"
+        },
+        {
+            "link": "self",
+            "name": "elder"
+        }
+    ],
+    "title": "0xB3733945",
+    "default": "adult"
+}

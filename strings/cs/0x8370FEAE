@@ -1,0 +1,1 @@
+Prohledá všechny autonomní interakce právě probíhající na pozemku u všech simíků. Input string bude jeden nebo více slov, která obsahují jméno probíhajících interakcí. Pokud není žádný text pro vložení, interakce nebude ukázána.

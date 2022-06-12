@@ -1,0 +1,1 @@
+Setting this percent will increase or decrease the weekly bill amount.  The default is zero, which is standard billing-amount.  -100 would be no bills.  100 would be double bills.

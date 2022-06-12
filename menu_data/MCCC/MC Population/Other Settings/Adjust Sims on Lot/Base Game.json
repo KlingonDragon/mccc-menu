@@ -1,0 +1,39 @@
+{
+    "desc": "0xAF59471A",
+    "items": [
+        {
+            "link": "self",
+            "name": "0x97F6F66C"
+        },
+        {
+            "link": "self",
+            "name": "gym"
+        },
+        {
+            "link": "self",
+            "name": "library"
+        },
+        {
+            "link": "self",
+            "name": "lounge"
+        },
+        {
+            "link": "self",
+            "name": "bar"
+        },
+        {
+            "link": "self",
+            "name": "park"
+        },
+        {
+            "link": "self",
+            "name": "pool"
+        },
+        {
+            "link": "self",
+            "name": "museum"
+        }
+    ],
+    "title": "0x40786C8B",
+    "default": "all_lots"
+}

@@ -1,0 +1,1 @@
+Zone-In Checking validates the Sim body parts against the template values when a Sim zones into a lot.  This is the least efficient automatic checking method as it is run on all Sims as they zone-in.  Not recommended for long-term use!!

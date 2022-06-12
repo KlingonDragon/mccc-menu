@@ -1,0 +1,1 @@
+Si le nombre actuel de vampires dans le monde est plus grand que ce nombre, empêche la naissance de nouveaux vampires. Cela ne permettra pas que plus de vampires soient engendrés. Les vampires déjà existants sont protégés. -1 = par défaut, sans limite.

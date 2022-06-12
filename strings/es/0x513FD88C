@@ -1,0 +1,1 @@
+La longitud máxima permitida para el nombre y apellido al renombrar a un Sim con el MCCC.\n\nEl valor por defecto es 14.\n\n¡AVISO! Usar un nombre compuesto por más de 14 caracteres causará un error en CUS, particularmente al modificar y guardar al Sim.

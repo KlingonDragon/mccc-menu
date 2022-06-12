@@ -1,0 +1,1 @@
+Ändra Färdighetsprogression så att den blir långsammare eller snabbare. Giltiga inställningar är från -50 till 10 med standardvärdet noll. Negativt är långsammare framsteg, positivt är snabbare. Varje negativt poäng är -10%, så -10 är 100% långsammare, -20 är 200% långsammare, m.m. Positiva är 100% per poäng, så 2 är 200% snabbare upp till 10 vilket är 1000% snabbare.

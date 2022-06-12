@@ -1,0 +1,1 @@
+Durchsuche alle autonomen Interaktionen aller Sims, die derzeit auf dem Grundstück laufen.  Der Eingabestring kann ein oder mehrere Wörter sein, die im Namen der laufenden Interaktionen enthalten sind.  Wenn kein String eingegeben wurde, werden alle laufenden Interaktionen angezeigt.

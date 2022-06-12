@@ -1,0 +1,1 @@
+Le nombre de millisecondes en temps réel pour chaque seconde Sim. La valeur par défaut est de 25 et moins de jours ce qui fait aller plus vite et plus les jours passent, cela rend plus lent.

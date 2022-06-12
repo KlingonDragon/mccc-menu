@@ -1,0 +1,1 @@
+Sök efter alla autonoma interaktioner som körs på nuvarande tomt, från samtliga simmar. Värdet kan vara ett eller flera ord som finns i den pågående interaktionen. Om värdet är tomt, så kommer samtliga aktiva interaktioner att visas.

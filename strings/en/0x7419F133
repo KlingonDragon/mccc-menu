@@ -1,0 +1,1 @@
+A Sim flagged to Never Cull will be bypassed by the core game culling/pruning scripts.  This prevents them from being hidden by culling processes.

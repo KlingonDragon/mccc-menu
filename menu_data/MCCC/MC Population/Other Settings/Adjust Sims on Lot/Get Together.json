@@ -1,0 +1,23 @@
+{
+    "desc": "0xAF59471A",
+    "items": [
+        {
+            "link": "self",
+            "name": "cafe"
+        },
+        {
+            "link": "self",
+            "name": "nightclub"
+        },
+        {
+            "link": "self",
+            "name": "chalet_gardens"
+        },
+        {
+            "link": "self",
+            "name": "0x2BFD9ADE"
+        }
+    ],
+    "title": "get_together",
+    "default": "all_lots"
+}

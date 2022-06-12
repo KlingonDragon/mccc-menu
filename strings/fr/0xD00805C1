@@ -1,0 +1,1 @@
+Rechercher tous les traits valables qui peuvent être retirés au Sim. La saisie peut comporter un ou plusieurs mots qui sont contenus dans le nom du trait, et non dans le nom d'affichage du trait (ex : trait_femelle). Si aucune chaîne de caractères n'est saisie, tous les traits seront affichés.

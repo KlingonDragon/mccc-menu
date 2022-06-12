@@ -1,0 +1,1 @@
+Definisce il numero di relazioni che vanno sempre ignorate dal processo di Pulizia Relazioni di MC. Se questo numero di Relazioni è quello che rimane, nessun processo di pulizia ulteriore verrà effettuato.

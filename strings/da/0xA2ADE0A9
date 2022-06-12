@@ -1,0 +1,1 @@
+Definerer det maksimale antal simmere der er tillad i en husholdning. Bemærk at hvis dette bliver ændret til mere end 8, vil LES ikke fungere korrekt og vise alle simmere i husholdningen.

@@ -1,0 +1,43 @@
+{
+    "title": "0xF5FD6EEF",
+    "desc": "0x9FCF388F",
+    "default": "0xF82DCD92",
+    "items": [
+        {
+            "link": "self",
+            "name": "0xF82DCD92"
+        },
+        {
+            "link": "self",
+            "name": "everyday"
+        },
+        {
+            "link": "self",
+            "name": "formal"
+        },
+        {
+            "link": "self",
+            "name": "athletic"
+        },
+        {
+            "link": "self",
+            "name": "sleep"
+        },
+        {
+            "link": "self",
+            "name": "party"
+        },
+        {
+            "link": "self",
+            "name": "swimwear"
+        },
+        {
+            "link": "self",
+            "name": "hotweather"
+        },
+        {
+            "link": "self",
+            "name": "coldweather"
+        }
+    ]
+}

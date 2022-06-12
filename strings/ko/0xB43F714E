@@ -1,0 +1,1 @@
+If enabled, when a log message marked as an &quot;Error&quot; by MC Command Center is output to the mc_cmd_center.log file a notification post will be shown.

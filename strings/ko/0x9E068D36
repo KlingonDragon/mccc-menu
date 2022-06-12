@@ -1,0 +1,1 @@
+When determining whether an NPC Sim will become pregnant with another NPC Sim during random pregnancy generation, the gender preference of the target Sim will be evaluated as part of the process.

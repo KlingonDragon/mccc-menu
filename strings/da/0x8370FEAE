@@ -1,0 +1,1 @@
+Søg alle autonome interaktioner, der kører i øjeblikket på grunden, fra alle sims. Input string kan være et eller flere ord, som indeholder navnet på de løbende interaktioner. Hvis der ikke er nogle string input, alle løbende interaktioner vil blive vist.

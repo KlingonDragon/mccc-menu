@@ -1,0 +1,25 @@
+{
+    "title": "0x272800C9",
+    "items": [
+        {
+            "link": "Show Computer Menu",
+            "name": "0x8EC70E88"
+        },
+        {
+            "link": "Show Sim Menu",
+            "name": "0xF73E588E"
+        },
+        {
+            "link": "Bypass Specific Menus",
+            "name": "0x8440844F"
+        },
+        {
+            "link": "Show Cheats Menu",
+            "name": "0xA3D100ED"
+        },
+        {
+            "link": "Show Gnome Menu Type",
+            "name": "0xF46E1A93"
+        }
+    ]
+}

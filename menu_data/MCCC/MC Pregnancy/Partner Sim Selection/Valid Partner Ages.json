@@ -1,0 +1,23 @@
+{
+    "desc": "0xE12B4DD3",
+    "items": [
+        {
+            "link": "self",
+            "name": "teen"
+        },
+        {
+            "link": "self",
+            "name": "youngadult"
+        },
+        {
+            "link": "self",
+            "name": "adult"
+        },
+        {
+            "link": "self",
+            "name": "elder"
+        }
+    ],
+    "title": "0x56A79DF2",
+    "default": "adults_only"
+}

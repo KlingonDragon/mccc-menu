@@ -1,0 +1,1 @@
+Kontroll baserat på zon validerar simmars kroppsdelar mot mallarnas värden när en Sim zonar in till en tomt.  Den minst effektiva automatiska kontrollen då den körs på alla  Simmar då de zonar in. Inte rekommenderat för långvarigt användande!

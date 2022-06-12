@@ -1,0 +1,1 @@
+Si este valor es mayor a cero, entonces serán evaluadas las relaciones de los Sims PNJ con el estado de casado, novio o comprometido para determinar si existe una probabilidad de ruptura.\n\nUn ajuste de 0 no dará probabilidad alguna y un ajuste de 100 una probabilidad muy alta.

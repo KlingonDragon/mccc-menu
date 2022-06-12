@@ -1,0 +1,1 @@
+Sprawdzanie Strefy weryfikuje części ciała Sima oparte na wartościach szablonu, gdy Sim wchodzi w strefę parceli.  Jest to najmniej skuteczna metoda automatycznego sprawdzania, ponieważ działa na wszystkich Simów wchodzących na parcelę.  Nie zaleca się długotrwałego użytku!!!

@@ -1,0 +1,1 @@
+Zoek alle geldige eigenschappen die aan de Sim kunnen worden toegevoegd. De invoertekenreeks kan  The input string can be one or more words which are contained within the name of the trait, not the display name of the trait (ex: trait_female).  If no string is input, all traits will be shown.

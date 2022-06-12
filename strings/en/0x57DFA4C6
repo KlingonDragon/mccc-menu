@@ -1,0 +1,1 @@
+Search all valid buffs that can be removed from the Sim.  The input string can be one or more words which are contained within the name of the buff, not the display name of the buff (ex: CheatingIntensityBuff_Happy).  If no string is input, all buffs will be shown.

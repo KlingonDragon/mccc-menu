@@ -1,0 +1,1 @@
+If the current number of vampires in the world is greater than this number, then no more vampires will be born.  This will not keep more vampires from being generated, only born.  -1 = default, no limit.

@@ -1,0 +1,23 @@
+{
+    "desc": "0xAF59471A",
+    "items": [
+        {
+            "link": "self",
+            "name": "apartments"
+        },
+        {
+            "link": "self",
+            "name": "arts_centre"
+        },
+        {
+            "link": "self",
+            "name": "karaoke_bar"
+        },
+        {
+            "link": "self",
+            "name": "myshuno"
+        }
+    ],
+    "title": "city_living",
+    "default": "all_lots"
+}

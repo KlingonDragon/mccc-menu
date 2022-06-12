@@ -1,0 +1,1 @@
+Partner: {0.String}\nIncinta di {1.Number} {S.maschio}{P.maschi} e {2.Number} {S.femmina}{P.femmine}.\nTrimestre: {3.Number} (La gravidanza è sospesa)

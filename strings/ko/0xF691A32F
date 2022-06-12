@@ -1,0 +1,1 @@
+Change the world time by the specified day and hour offsets.  It may be necessary to save/exit/restart the game or change zones after performing a time change to reset internal game alarms and prevent interactions from freezing.

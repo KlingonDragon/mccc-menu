@@ -1,0 +1,1 @@
+Sök efter alla giltiga egenskaper som kan tas bort från Simmen. Inmatningssträngen kan vara ett eller flera ord som finns i egenkapens namn, inte egenskapens visningsnamn (t.ex: egenskap_kvinna). Om ingen sträng matas in kommer alla drag att visas.

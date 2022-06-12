@@ -1,0 +1,1 @@
+Spécifie si un Sim doit prendre ses enfants avec lui si il déménage à la suite d'une rupture. Il s'agit du pourcentage de chance pour que l'enfant déménage, il peut donc être mis à 0 pour &quot;jamais&quot;, 100 pour &quot;toujours&quot;, et un chiffre entre-deux pour une chance aléatoire.

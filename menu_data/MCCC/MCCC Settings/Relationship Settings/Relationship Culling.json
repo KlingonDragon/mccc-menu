@@ -1,0 +1,23 @@
+{
+    "title": "0x7E507C05",
+    "desc": {
+        "default": "0xB21A7DF2",
+        "1": "0xB016F7A3",
+        "3": "0xFFB8E21B"
+    },
+    "default": "0x58261DEB",
+    "items": [
+        {
+            "link": "self&desc=1",
+            "name": "0xBA7BA85A"
+        },
+        {
+            "link": "self",
+            "name": "0x58261DEB"
+        },
+        {
+            "link": "self&desc=3",
+            "name": "0xB6868581"
+        }
+    ]
+}

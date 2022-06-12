@@ -1,0 +1,1 @@
+Change Career progression to be slower or faster.  Valid settings are from -50 to 10 with a default of zero.  Negative is slower progress, positive is faster.  Every negative point is -10%, so -10 is 100% slower, -20 is 200% slower, etc.  Positive are 100% per point, so 2 is 200% faster up to 10 which is 1000% faster.

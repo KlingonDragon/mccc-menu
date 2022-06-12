@@ -1,0 +1,1 @@
+Ändra Vampyrers vinst av erfarenhet till långsammare eller snabbare. Giltiga inställningar är från -10 till 10 med default ställt till 0. Negativa värden är långsammare och positiva värden är snabbare. 2 = 2x snabbare. -2 = 2x långsammare. 

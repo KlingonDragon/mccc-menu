@@ -1,0 +1,35 @@
+{
+    "desc": "0x05B41A4E",
+    "items": [
+        {
+            "link": "self",
+            "name": "bar_nights_guys"
+        },
+        {
+            "link": "self",
+            "name": "bar_nights_bear"
+        },
+        {
+            "link": "self",
+            "name": "bar_nights_aliens"
+        },
+        {
+            "link": "self",
+            "name": "bar_nights_ghosts"
+        },
+        {
+            "link": "self",
+            "name": "bar_nights_knight"
+        },
+        {
+            "link": "self",
+            "name": "bar_nights_ladies"
+        },
+        {
+            "link": "self",
+            "name": "bar_nights_singles"
+        }
+    ],
+    "title": "0x3C68DA14",
+    "default": "bar_nights_all"
+}

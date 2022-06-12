@@ -1,0 +1,1 @@
+When determining whether an NPC Sim will marry another NPC Sim during random marriage generation, the gender preference of the target Sim will be evaluated as part of the process.

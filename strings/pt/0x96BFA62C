@@ -1,0 +1,1 @@
+A verificação na área valida as partes do corpo de encontro aos valores de modelo quando Sims transitam dentro da área onde está um Sim ativo. Este é o método de verificação automática menos eficiente, já que é executado em todos os Sims que transitem na área. Não recomendado para uso a longo prazo!!

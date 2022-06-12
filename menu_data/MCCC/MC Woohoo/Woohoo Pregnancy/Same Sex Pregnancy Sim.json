@@ -1,0 +1,15 @@
+{
+    "title": "0x6522D4A4",
+    "desc": "0x573F824F",
+    "default": "0x8E082B50",
+    "items": [
+        {
+            "link": "self",
+            "name": "0x8E082B50"
+        },
+        {
+            "link": "self",
+            "name": "0x3A8D5116"
+        }
+    ]
+}

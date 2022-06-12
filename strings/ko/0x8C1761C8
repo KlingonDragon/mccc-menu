@@ -1,0 +1,1 @@
+Change Vampire experience gain to be slower or faster.  Valid settings are from -10 to 10 with a default of zero.  Negative is slower progress, positive is faster.  2 would be 2x faster.  -2 would be 2x slower.

@@ -1,0 +1,1 @@
+Om aktiverad, så kommer hushåll som är valda för import, att filtreras än mer baserat på inkluderande eller exkluderande taggar. Kommandot är deaktiverat som grundiställning eftersom det ökar  Disabled by default because it increases access-time when loading households.

@@ -1,0 +1,1 @@
+Zmień postęp na uniwersytecie na wolniejszy lub szybszy. Wartości ujemne zmniejszają postęp, dodatnie zwiększają. Każdy punkt ujemny wynosi -10%, więc -10 oznacza 100% wolniejszy postęp, -20 oznacza 200% wolniejszy, itd. W wartościach dodatnich każdy punkt wynosi 100%, więc 2 oznaczają 200% szybszy postęp, aż do 10 oznaczających 1000% szybszy.

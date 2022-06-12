@@ -1,0 +1,39 @@
+{
+    "desc": "0x626198A6",
+    "items": [
+        {
+            "link": "self",
+            "name": "0xF9456A2F"
+        },
+        {
+            "link": "self",
+            "name": "0x568492E4"
+        },
+        {
+            "link": "self",
+            "name": "0x8A2282A1"
+        },
+        {
+            "link": "self",
+            "name": "0x0CEFC231"
+        },
+        {
+            "link": "self",
+            "name": "0x58876122"
+        },
+        {
+            "link": "self",
+            "name": "0xDF3BF266"
+        },
+        {
+            "link": "self",
+            "name": "0xB43F99C7"
+        }
+    ],
+    "title": "0xCFD11A73",
+    "default": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+    ]
+}

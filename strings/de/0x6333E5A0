@@ -1,0 +1,1 @@
+Sollte die aktuelle Anzahl von Magiern im Spiel größer werden als diese Zahl, werden keine weiteren Magier-Babys mehr geboren. Diese Einstellung verhindert nicht das weitere Erzeugen von Magiern durch Spielprozesse. Grundeinstellung = -1, d. h. unbegrenzt.

@@ -1,0 +1,1 @@
+Cerca tutti i tratti validi che possono essere aggiunti al Sim. La stringa inserita può essere una o più parole contenute nel nome di un tratto, non nel nome mostrato del tratto (es. trait_female). Se non viene inserita nessuna stringa allora verrano mostrati tutti i tratti.

@@ -1,0 +1,29 @@
+{
+    "title": "0x2203F300",
+    "all_desc": "0x2C5F35D5",
+    "desc": {
+        "default": "0x0CDA5DDC",
+        "2": "0x595DA3AD",
+        "3": "0x1D565618",
+        "4": "0xDD343FB7"
+    },
+    "default": "none",
+    "items": [
+        {
+            "link": "self",
+            "name": "none"
+        },
+        {
+            "link": "self&desc=2",
+            "name": "0x6BB84884"
+        },
+        {
+            "link": "self&desc=3",
+            "name": "0xEAC7CB71"
+        },
+        {
+            "link": "self&desc=4",
+            "name": "0xB5E49C9A"
+        }
+    ]
+}

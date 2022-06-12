@@ -1,0 +1,15 @@
+{
+    "title": "0x338A1001",
+    "desc": "0x7940E0D1",
+    "default": "default_value",
+    "items": [
+        {
+            "link": "self",
+            "name": "0x1A69D239"
+        },
+        {
+            "link": "self",
+            "name": "0x7740D4B4"
+        }
+    ]
+}

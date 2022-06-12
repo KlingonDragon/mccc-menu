@@ -1,0 +1,1 @@
+Durchsuche alle verfügbaren Eigenschaften, die zu einem Sim hinzugefügt werden können. Der Suchauftrag kann aus einem oder mehreren Worten bestehen, die in der Eigenschafts-Bezeichnung enthalten sind. Der Anzeige-Name der Eigenschaft kann zur Suche nicht verwendet werden (Bsp.: trait_female). Wenn keine Suchwörter eingegeben werden, werden alle Eigenschaften angezeigt.

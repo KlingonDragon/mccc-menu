@@ -1,0 +1,1 @@
+Search all autonomous interactions currently running on the lot, from all Sims.  The input string can be one or more words which are contained within the name of the running interactions.  If no string is input, all running interactions will be shown.

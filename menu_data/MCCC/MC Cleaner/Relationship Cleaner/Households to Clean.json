@@ -1,0 +1,27 @@
+{
+    "title": "0x6FEA97A7",
+    "desc": "0xBD426F2F",
+    "default": "0x1E9A4340",
+    "items": [
+        {
+            "link": "self",
+            "name": "0x1E9A4340"
+        },
+        {
+            "link": "self",
+            "name": "0x20A73802"
+        },
+        {
+            "link": "self",
+            "name": "0xFE577591"
+        },
+        {
+            "link": "self",
+            "name": "0xFBA6A51B"
+        },
+        {
+            "link": "self",
+            "name": "0xDBC4F4EE"
+        }
+    ]
+}

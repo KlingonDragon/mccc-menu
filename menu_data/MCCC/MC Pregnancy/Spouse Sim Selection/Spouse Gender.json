@@ -1,0 +1,15 @@
+{
+    "desc": "0xF248EFD0",
+    "items": [
+        {
+            "link": "self",
+            "name": "female"
+        },
+        {
+            "link": "self",
+            "name": "male"
+        }
+    ],
+    "title": "0xE70010D6",
+    "default": "male_only"
+}

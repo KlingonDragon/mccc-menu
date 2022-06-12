@@ -1,0 +1,1 @@
+Überprüfung nach Zonenwechsel validiert die Körperteile des Sims im Vergleich zu den Vorlagenwerten, nachdem ein Sim auf einem Grundstück eingetroffen ist.  Dies ist die ineffizienteste automatische Überprüfungsmethode, weil sie auf alle Sims angewendet wird, die auf dem Grundstück eingetroffen sind.  Nicht für die Langzeitanwendung empfohlen!!

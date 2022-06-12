@@ -1,0 +1,19 @@
+{
+    "title": "0x0625935D",
+    "desc": "0x064291E0",
+    "default": "none",
+    "items": [
+        {
+            "link": "self",
+            "name": "none"
+        },
+        {
+            "link": "self",
+            "name": "0x5AE83641"
+        },
+        {
+            "link": "self",
+            "name": "0x414ADC6F"
+        }
+    ]
+}

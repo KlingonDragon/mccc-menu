@@ -1,0 +1,1 @@
+Se ativado, as famílias permitidas em uma importação serão filtradas com base nas tags inclusão e exclusão.Desativado por padrão porque aumenta o tempo de acesso ao carregar residências.

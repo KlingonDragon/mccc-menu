@@ -1,0 +1,29 @@
+{
+    "title": "0x2376178A",
+    "all_desc": "0x2054A0FB",
+    "desc": {
+        "default": "0x2E1A9DE0",
+        "2": "0x00891532",
+        "3": "0x1CBE7DA5",
+        "4": "0xE855037E"
+    },
+    "default": "none",
+    "items": [
+        {
+            "link": "self",
+            "name": "none"
+        },
+        {
+            "link": "self&desc=2",
+            "name": "only_npc"
+        },
+        {
+            "link": "self&desc=3",
+            "name": "only_played"
+        },
+        {
+            "link": "self&desc=4",
+            "name": "all"
+        }
+    ]
+}

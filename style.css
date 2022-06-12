@@ -13,11 +13,27 @@ a {
 img {
     object-fit: contain;
 }
+button {
+    cursor: pointer;
+}
+input[type=text] {
+    width: 90%;
+    background: white;
+    color: royalblue;
+    text-align: left;
+    border-radius: 6px;
+    padding: 2px 10px;
+    box-shadow: 0 0 1px 1px lightgrey inset;
+    margin: 2px 0;
+    font-size: 120%;
+}
+input[type=text]:focus {
+    color: limegreen;
+}
 
 /* Page Layout */
 html {
     background: black;
-    border-radius: 25px 50px 50px 25px;
 }
 body {
     display: flex;
@@ -29,29 +45,34 @@ body {
     height: 100vh;
 }
 footer {
-    width: 100%;
+    position: sticky;
+    bottom: 0;
+    width: 80%;
+    background: black;
+    box-shadow: 0 0 1em 1em black;
     color: white;
     display: flex;
     flex-flow: row nowrap;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
+    border: 2px solid royalblue;
+    border-radius: 1em;
 }
 footer > img {
     height: 2em;
     width: 2em;
-    border-radius: 1em;;
+    border-radius: 1em;
+    margin: 0.5em;
 }
 
 /* Content */
 main {
-    flex-grow: 1;
-    flex-shrink: 1;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     width: clamp(300px, 80vw, 800px);
     margin: 1em;
-    padding: 0 0.5em 0;
+    padding: 0;
     background: white;
     border: 2px solid royalblue;
     border-radius: 1.5em;
@@ -61,12 +82,12 @@ section#back {
     align-items: flex-end;
     justify-content: flex-end;
     height: 32px;
+    margin-right: 1em;
 }
 section#back.hidden {
     visibility: hidden;
 }
 section#back button {
-    cursor: pointer;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +97,10 @@ section#back button {
     box-shadow: 0 0 3px 3px silver;
     font-weight: bold;
     border: none;
+    color: royalblue;
+}
+section#back button:hover {
+    color: limegreen;
 }
 section#title {
     font-weight: bolder;
@@ -90,6 +115,7 @@ section#path {
     font-size: small;
 }
 section#desc {
+    padding: 0 1em;
 	min-height: 60px;
 	text-align: left;
 }
@@ -98,8 +124,9 @@ section#desc {
 }
 section#buttons {
     flex-grow: 1;
+    padding: 0 1em;
 }
-section#buttons > a {
+section#buttons > * {
     display:flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -109,16 +136,16 @@ section#buttons > a {
     background: ghostwhite;
     border: 2px solid ghostwhite;
 }
-section#buttons > a:first-child {
+section#buttons > button {
+    font-size: larger;
+}
+section#buttons > *:first-child {
 	margin-top: 0;
 }
-section#buttons > a:last-child {
-	margin-bottom: 0;
-}
-section#buttons > a:hover {
+section#buttons > *:hover {
     border: 2px solid limegreen;
 }
-section#buttons > a .info {
+section#buttons .info {
     width: 100%;
     min-height: 60px;
     display:flex;
@@ -127,7 +154,7 @@ section#buttons > a .info {
     align-items: flex-start;
     padding: 4px;
 }
-section#buttons > a .info div {
+section#buttons .info div {
     width: 100%;
     text-align: left;
     overflow: hidden;
@@ -136,17 +163,17 @@ section#buttons > a .info div {
     -webkit-box-orient: vertical;
     white-space: normal;
 }
-section#buttons > a .info .title {
+section#buttons .info .title {
 	color: royalblue;
     -webkit-line-clamp: 1;
     line-clamp: 1;
 }
-section#buttons > a .info .desc {
+section#buttons .info .desc {
     font-size: 75%;
     -webkit-line-clamp: 2;
     line-clamp: 2;
 }
-section#buttons > a > img {
+section#buttons > * > img {
     background-image: url('/img/iconbg.svg');
     object-fit: scale-down;
     width: 60px;
@@ -157,23 +184,32 @@ section#buttons > a > img {
     max-height: 60px;
 }
 
+section#buttons.old {
+    background: darkgrey;
+    border-radius: 0 0 1.5em 1.5em;
+}
+section#buttons.old > * {
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: royalblue;
+    width: 90%;
+    border-radius: 24px;
+    padding: 2px;
+    box-shadow: 0 0 3px 3px lightgrey;
+    margin: 6px auto;
+    border: none;
+}
+section#buttons.old > *:hover {
+    width: 100%;
+    color: limegreen;
+}
 
 /* Search */
 aside#search {
     width: 100%;
     background: white;
     border-bottom: 2px solid royalblue;
-}
-#search > input[type=text] {
-    width: 90%;
-    background: white;
-    color: royalblue;
-    text-align: left;
-    border-radius: 6px;
-    padding: 2px 10px;
-    box-shadow: 0 0 1px 1px lightgrey inset;
-    margin: 2px 0;
-    font-size: 120%;
 }
 .result {
     border-bottom: 2px inset silver;
@@ -188,7 +224,7 @@ aside#search {
         left: 0;
         top: 0;
         width: 300px;
-        z-index: 2;
+        z-index: 3;
         max-height: 100vh;
         overflow-y: auto;
         direction: rtl;
@@ -204,29 +240,29 @@ aside#search {
     
 }
 
-/* Scrollbar */
-::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-thumb {
-    border: 4px solid transparent;
-}
-::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {
-    box-shadow: 0 0 0 1px royalblue inset;
-}
-::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {
-    border-radius: 8px;
-    width: 16px;
-    height: 16px;
-}
 
+/* Scrollbars */
 ::-webkit-scrollbar, ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-track, ::-webkit-scrollbar-corner, ::-webkit-resizer {
-    background: black;
+	background: black;
 }
-::-webkit-scrollbar-thumb:vertical {
-    border-top-width: 6px;
-    border-bottom-width: 6px;
-    box-shadow: -1px 0 0 0 royalblue inset, 1px 0 0 0 royalblue inset, 0 0 0 2px black inset, 0 0 0 6px royalblue inset;
+::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-thumb {
+	width: 16px;
+	height: 16px;
+	border: 4px solid transparent;
 }
-::-webkit-scrollbar-thumb:horizontal {
-    border-left-width: 6px;
-    border-right-width: 6px;
-    box-shadow: 0 -1px 0 0 royalblue inset, 0 1px 0 0 royalblue inset, 0 0 0 2px black inset, 0 0 0 6px royalblue inset;
+::-webkit-scrollbar, ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-thumb {
+	border-radius: 16px;
+}
+::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {
+	box-shadow: inset 0 0 0 1px royalblue;
+}
+::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 0 16px royalblue;
+}
+::-webkit-resizer {
+	background-image: url('resize-corner.svg');
+}
+/* Scrollbars (for non blink/webkit browsers (firefox)) */
+* {
+	scrollbar-color: royalblue black;
 }

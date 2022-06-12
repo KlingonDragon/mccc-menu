@@ -1,0 +1,1 @@
+Si activé, le triche ShowLiveObjects (bb.showliveeditobjects) sera toujours activé lors du chargement du jeu. Notez que la commande bb.showhiddenobjects est toujours exécutée automatiquement pour que ce paramètre fonctionne correctement.

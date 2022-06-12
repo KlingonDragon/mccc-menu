@@ -1,0 +1,1 @@
+Angiver hvilken sim der flytter ud og bliver hjemløs i tilfælde af afsluttet forhold. Hvis husstanden har familie af den ene sim, så vil den anden sim altid flytte ud først. Mænd og kvinder gælder kun for modsatte køn par, ellers vil det være tilfældigt. Intet vil ingen flytte ud, ved afslutning af forhold.

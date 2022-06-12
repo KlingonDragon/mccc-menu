@@ -1,0 +1,1 @@
+Modifica il rateo di guadagno dell’Esperienza Vampiro in modi che risulti più lento o più veloce. I valori limite sono -10 e più 10. Un valore negativo indica rateo più lento, positivo significa più veloce. 2 sarà il doppio della velocità, -2 mezza velocità.

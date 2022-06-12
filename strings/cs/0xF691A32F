@@ -1,0 +1,1 @@
+Změnit světový čas o určené dny a počet hodin. Možná bude potřeba uložit/vypnout/restartovat hru nebo změnit zóny po změně času, aby se hra vnitřně resetovala a předešla zamrznutí interakcí.

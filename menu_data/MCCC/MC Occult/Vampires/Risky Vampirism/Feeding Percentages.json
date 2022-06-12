@@ -1,0 +1,21 @@
+{
+    "title": "0x57A88D16",
+    "items": [
+        {
+            "link": "Ask for Permission to Drink",
+            "name": "asktodrink"
+        },
+        {
+            "link": "Compel for a Small Drink",
+            "name": "compelsmall"
+        },
+        {
+            "link": "Compel for a Deep Drink",
+            "name": "compeldeep"
+        },
+        {
+            "link": "Drink Uncontrollably",
+            "name": "drinkuncontrollable"
+        }
+    ]
+}
