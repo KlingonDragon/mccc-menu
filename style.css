@@ -218,7 +218,7 @@ aside#search {
     color: black;
 }
 /* Desktop */
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 600px) {
     aside#search {
         position: fixed;
         left: 0;
@@ -236,7 +236,7 @@ aside#search {
     }
 }
 /* Mobile */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 600px) {
     
 }
 
