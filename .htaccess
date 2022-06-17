@@ -1,0 +1,2 @@
+ErrorDocument 404 /
+Redirect 301 /README.md /
