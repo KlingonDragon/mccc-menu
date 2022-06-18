@@ -1,1 +1,1 @@
-Set a Value for the voice of {0.SimName}.  A value between -100 and 100 can be entered.  Negative values are deeper pitches and positive numbers are higher pitches.
+{0.SimName}의 목소리 특징을 결정할 값을 입력하세요.  -100과 100 사이에서 지정할 수 있습니다.  음수는 저음, 양수는 고음의 목소리입니다.

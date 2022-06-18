@@ -1,0 +1,1 @@
+Lorsqu'un Sim enfant devient adolescent, si l'un des parents a défini des valeurs dans cette définition personnalisée, elles seront automatiquement copiées sur l'enfant en fonction de ce pourcentage. 100 = toujours utiliser les valeurs parentales, 0 = ne jamais utiliser les valeurs parentales.

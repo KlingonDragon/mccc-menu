@@ -1,0 +1,1 @@
+Партнер: &lt;font color='#1824BE'&gt;{0.String}&lt;/font&gt;\nБеременность: &lt;font color='#1824BE'&gt;{1.Number}&lt;/font&gt; мальчиков и &lt;font color='#1824BE'&gt;{2.Number}&lt;/font&gt; девочек\nТриместр: &lt;font color='#1824BE'&gt;{3.Number}&lt;/font&gt; &lt;font color='#FF0000'&gt;(Беременность приостановлена)&lt;/font&gt;

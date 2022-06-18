@@ -1,0 +1,1 @@
+Mudar a progressão da fama para ser mais lenta ou mais rápida.\nAs configurações válidas são de -50 a 10 com um padrão de zero.\nNegativo é progresso mais lento, positivo é mais rápido.\n\nCada ponto negativo é -10%, portanto -10 é 100% mais lento, -20 é 200% mais lento, etc.\n\nPositivos são 100% por ponto, portanto 2 é 200% mais rápido até 10, o que é 1000% mais rápido.

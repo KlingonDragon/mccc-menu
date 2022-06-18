@@ -1,1 +1,1 @@
-If enabled, when random pregnancies are generated for NPC Sims, the result of checks against the Same Sex Percentage will permanently set the Gender Preference on the target Sims by flagging them as Same Sex Only or Opposite Sex Only.
+활성화 시, 무작위 NPC 심이 임신할 때, '동성 선호 확률'을 심에 적용해서 나온 결과를 고정시켜 결과에 따라 심에게 '동성만 선호' 플래그나 '이성만 선호' 플래그를 추가합니다.

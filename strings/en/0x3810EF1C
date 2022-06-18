@@ -1,0 +1,1 @@
+This skill list will determine what skills will be included when the Skill Difficulty Adjustment setting is used.  Default is for all skills, but if skills are specified in this setting, only these skills will be adjusted by the difficulty amount.

@@ -1,0 +1,1 @@
+Recherchez tous les buffs valides pouvant être retirés du Sim. La chaîne d'entrée peut être un ou plusieurs mots contenus dans le nom du buff, pas le nom d'affichage du buff (ex : CheatingIntensityBuff_Happy). Si aucune chaîne n'est saisie, tous les buffs seront affichés.

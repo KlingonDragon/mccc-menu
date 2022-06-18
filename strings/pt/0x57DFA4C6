@@ -1,0 +1,1 @@
+Procure todos os efeitos de humor válidos que possam ser removidos do Sim.\nA cadeia de entrada pode ser uma ou mais palavras que estão contidas no nome do efeito, não o nome de exibição do efeito (ex: CheatingIntensityBuff_Happy).\nSe nenhuma palavra for inserida, todos os efeitos serão mostrados.

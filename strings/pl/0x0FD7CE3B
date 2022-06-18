@@ -1,0 +1,1 @@
+Określa procentową szansę na to, że ta niestandardowa definicja zostanie użyta na Simie starzejącym się do kategorii tej grupy wiekowej lub losowo wygenerowanym Simie tej grupy wiekowej. Zauważ, że generowani Simowie przy wykorzystaniu importowania z „tray” nie korzystają z tej opcji. Ci Simowie korzystają z opcji „Procent zmiany Simów importowanych z „tray””.

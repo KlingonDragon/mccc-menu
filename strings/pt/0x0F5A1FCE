@@ -1,1 +1,1 @@
-{1.SimFirstName} não pode ser {M1.marcado}{F1.marcada} para a gravidez porque {M1.ele}{F1.ela} já está {M1.grávido}{F1.grávida}
+{1.SimFirstName} não pode ser marcad{M1.o}{F1.a} para gravidez porque {M1.ele}{F1.ela} já está grávid{M1.o}{F1.a}

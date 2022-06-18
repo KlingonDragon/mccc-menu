@@ -1,0 +1,1 @@
+This setting limits the lots that random challenges will be applied to.  If the active Sim is on an invalid lot type when the time comes to randomly create challenges, it will be checked again later.

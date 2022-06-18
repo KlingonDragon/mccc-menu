@@ -1,0 +1,1 @@
+Durchsuche alle verfügbaren Stimmungen, die zu diesem Sim hinzugefügt werden können. Der Suchauftrag kann aus einem oder mehreren Worten bestehen, die in der Stimmungs-Bezeichnung enthalten sind. Der Anzeige-Name der Stimmung kann zur Suche nicht verwendet werden (Bsp.: CheatingIntensityBuff_Happy). Wenn keine Suchwörter eingegeben werden, werden alle Eigenschaften angezeigt.

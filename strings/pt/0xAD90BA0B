@@ -1,0 +1,1 @@
+Esta lista de habilidades determinará quais habilidades serão excluídas quando o ajuste de Dificuldade de Habilidade for usado.  O padrão é para todas as habilidades, mas se as habilidades forem especificadas neste ajuste, então todas as habilidades, exceto as que estão nesta lista, serão ajustadas pelo valor da dificuldade.

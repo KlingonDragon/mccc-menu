@@ -1,0 +1,1 @@
+Esto determina la tasa a que decae el progreso en la Sociedad secreta.\nUn valor de &lt;em&gt;100&lt;/em&gt; significa un decaimiento normal\nUn valor de &lt;em&gt;0&lt;/em&gt; significa nignún decaimiento\nUn valor de &lt;em&gt;200&lt;/em&gt; significa una tasa dos veces más rápido

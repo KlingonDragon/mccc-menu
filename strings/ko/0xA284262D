@@ -1,1 +1,1 @@
-When running the Clean Culled Sims process, don't delete a ghost if they are in the family tree of the active family members.
+'소멸된 심 삭제' 작업을 할 때 활성 가족의 가계도에 있는 유령 심을 삭제하지 않도록 설정할 수 있습니다.

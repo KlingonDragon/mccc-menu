@@ -1,0 +1,1 @@
+Sök efter alla giltiga buffar som kan tas bort från Simmen. Inmatningssträngen kan vara ett eller flera ord som finns i buffens namn, inte buffens visningsnamn (t.ex. CheatingIntensityBuff_Happy). Om ingen sträng matas in kommer alla buffar att visas.

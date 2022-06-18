@@ -1,0 +1,1 @@
+Especifica el máximo de desafíos que estarán añadidos al solar actual.\n\nUn valor de zero desactiva esta funcionalidad completamente.\n\nSe usará el máximo entre este ajuste y el número de desafíos diponibles en el solar actual.

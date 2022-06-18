@@ -1,1 +1,1 @@
-Se o número atual de sereias no mundo for maior que esse número, não haverá mais sereias. Isso não impedirá que mais sereias sejam geradas, apenas nascem. -1 = padrão, sem limite.
+Se o número atual de sereias no mundo for maior do que este número, então não nascerão mais sereias.\nIsto não impedirá que mais sereias sejam geradas, apenas não nascem.\n-1 = padrão, sem limite.

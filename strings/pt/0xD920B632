@@ -1,1 +1,1 @@
-O número mínimo de horas para passar antes de permitir que outra abdução programada ocorra. O valor padrão da  EA é &quot;24&quot;.
+O número mínimo de horas necessárias antes de permitir que outra verificação de abdução ocorra.\nO padrão da EA é 24.

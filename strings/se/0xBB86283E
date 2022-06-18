@@ -1,0 +1,1 @@
+Specificerar det maximala antalet utmaningar som kommer läggas till för den nuvarande tomten. Noll avaktiverar den slumpmässiga utmaningsfunktionen helt. Om antalet som specificerats i den här inställningen är fler än antalet utmaningar som är tillgängliga för den nuvarande tomten kommer det antalet användas istället.

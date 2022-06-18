@@ -1,0 +1,1 @@
+Ta opcja określa maksymalny czas czekania do przelosowania aktualnych wyzwań parceli. Rodzaj jednostek określanych w tej opcji jest zależy od opcji „Rodzaj jednostki zmian wyzwań”. Zauważ, że alarm do zmiany zostanie zresetowany przy ponowny załadowaniu gry oraz jest kontrolowany przez system kolejkowania EA, więc nie będzie miał dokładnego czasu.

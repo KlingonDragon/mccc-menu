@@ -1,1 +1,1 @@
-{1.SimFirstName} não pode ser {M1.marcado}{F1.marcada} para o casamento porque {M1.ele}{F1.ela} já é {M1.casado}{F1.casada}
+{1.SimFirstName} não pode ser marcad{M1.o}{F1.a} para se casar porque {M1.ele}{F1.ela} já é casad{M1.o}{F1.a}

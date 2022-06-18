@@ -1,1 +1,1 @@
-Definierar maxantal simmar tillåtna i ett hushåll. Observera att om detta ändras till &gt; 8, kommer CAS inte korrekt kunna visa all simmar i hushållet. 
+Ställer in maximalt antal simmar som är tillåtna i ett hushåll. Observera att om detta ändras till fler än 8 kommer inte CAS korrekt att kunna visa alla simmar i hushållet. 

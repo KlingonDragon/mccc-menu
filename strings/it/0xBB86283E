@@ -1,0 +1,1 @@
+Specifica il numero massimo di sfide che verranno aggiunte nel lotto corrente. Zero disattiva tutte le funzionalità delle sfide casuali. Se il numero specificato in questa impostazione è più alto del numero di sfide disponibili per il lotto corrente, allora verrà usato un altro numero.

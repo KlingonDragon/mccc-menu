@@ -1,1 +1,1 @@
-Select the type of offspring below to specify the percentage for  that offspring to be used in the current pregnancy rather than the EA defaults.  Note that if zero is entered for all offspring types, then only human babies will be born.
+아래에서 자식 유형을 선택해 현재 임신에서 해당 유형의 자녀를 출산할 확률을 정합니다. 이 설정은 EA 기본 확률을 덮어씁니다.  모든 유형의 설정값이 0이면 인간 아기만 태어납니다.

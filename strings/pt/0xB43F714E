@@ -1,1 +1,1 @@
-Se ativado, quando uma mensagem de log marcado como um &quot;erro&quot; pelo MC Command Center é emitido pelo mc_cmd_center.log file um post de notificação será mostrado.
+Se ativado, quando uma mensagem de registro marcada como &quot;Erro&quot; pelo MC Command Center é emitida para o arquivo mc_cmd_center.log, e uma notificação será mostrada.

@@ -1,1 +1,1 @@
-1 {1.Number}과 {0.String} 스킬 레벨 입력 (입력을 &quot;1&quot; 배운 적이 있는 기술을 재설정). 현재 수준은 {2.Number}.
+{0.String} 기술 레벨을 1과 {1.Number} 사이에서 입력하세요 (&quot;1&quot; 입력 시 배운 적이 없는 기술로 초기화). 현재 레벨은 {2.Number}.

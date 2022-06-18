@@ -1,1 +1,1 @@
-When determining whether an NPC Sim will marry another NPC Sim during random marriage generation, the gender preference of the target Sim will be evaluated as part of the process.
+무작위로 자동 결혼할 NPC 심의 상대 NPC를 선택할 때, 배우자가 될 심의 성별 선호도까지 유념해서 선정합니다.

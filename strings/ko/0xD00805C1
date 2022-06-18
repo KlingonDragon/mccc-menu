@@ -1,1 +1,1 @@
-Search all valid traits that can be removed from the Sim.  The input string can be one or more words which are contained within the name of the trait, not the display name of the trait (ex: trait_female).  If no string is input, all traits will be shown.
+심에게서 제거할 수 있는 모든 특성을 검색합니다.  표시 이름이 아닌, 특성의 명칭(예: trait_female)에 포함되는 검색어를 한 단어 이상 입력할 수 있습니다.  비어두면 가능한 모든 특성을 표시합니다.

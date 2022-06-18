@@ -1,0 +1,1 @@
+Hledejte všechny platné náladovky, které lze přidat k Simíkovi. Vstupním řetězcem může být jedno nebo více slov, která jsou obsažena v názvu buffu, nikoli zobrazovaný název náladovky (tedy např .: CheatingIntensityBuff_Happy). Pokud není zadán žádný řetězec, zobrazí se všechny náladovky.

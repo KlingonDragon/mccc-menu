@@ -1,0 +1,1 @@
+Defines a category which limits which body types from CAS will be allowed in this Custom Definition.  Each category matches a type in CAS, like Skin Details, but may have multiple body types like Freckles, Forehead Crease, etc.

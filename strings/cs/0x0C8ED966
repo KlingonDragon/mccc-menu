@@ -1,0 +1,1 @@
+Toto nastavení určí maximální množství domácích mazlíčků, kteří budou adoptováni do různých domácností v průběhu automatických stěhování/adopcí tuláků. Výchozí hodnotou je nula, což znamená žádný. -1 je neomezený počet, nebo můžete zadat konkrétní číslo, aby se vám domácnosti neplnily toulavými mazlíčky. Tuláci mají automaticky rádi domácnosti, které žijí na pozemku.

@@ -1,0 +1,1 @@
+This setting specifies the maximum time to wait before randomizing the current lot's challenges.  The type of units we're specifying here is based on the &quot;Challenge Unit Type&quot; setting.  Note that the alarm for this will reset when the game reloads and the exact alarm is controlled by EA's queuing system so it will not be exact timing!

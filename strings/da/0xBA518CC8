@@ -1,0 +1,1 @@
+Skift progression af skolens lektier til at være langsommere eller hurtigere. Gyldige indstillinger er fra -3 til 50 med en standard på nul. Negativt er langsommere fremskridt, positivt er hurtigere. Hvert negativt punkt er -100 %, så -1 er 100 % langsommere, -2 er 200 % langsommere osv. 10 er omkring 1/4 af den normale lektiehastighed, 20 er omkring 1/8 osv.

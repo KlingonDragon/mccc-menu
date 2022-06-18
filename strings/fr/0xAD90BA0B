@@ -1,0 +1,1 @@
+Cette liste de compétences déterminera quelles compétences seront exclues lorsque le paramètre d'ajustement de la difficulté des compétences est utilisé. La valeur par défaut est pour toutes les compétences, mais si des compétences sont spécifiées dans ce paramètre, toutes les compétences sauf celles de cette liste seront ajustées en fonction du niveau de difficulté.

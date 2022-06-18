@@ -1,0 +1,1 @@
+Change school homework progression to be slower or faster.  Valid settings are from -3 to 50 with a default of zero.  Negative is slower progress, positive is faster.  Every negative point is -100%, so -1 is 100% slower, -2 is 200% slower, etc.  10 is about 1/4 the normal homework speed, 20 is about 1/8, etc..  

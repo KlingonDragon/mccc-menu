@@ -1,1 +1,1 @@
-A Sim flagged to Never Cull will be bypassed by the core game culling/pruning scripts.  This prevents them from being hidden by culling processes.
+소멸 금지 플래그가 추가된 심은 기본 게임의 소멸/정리 작업에 영향을 받지 않습니다.  소멸 작업에 의해 심이 숨겨지는 것을 방지할 수 있습니다.

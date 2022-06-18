@@ -1,1 +1,1 @@
-If enabled, when a log message marked as an &quot;Error&quot; by MC Command Center is output to the mc_cmd_center.log file a notification post will be shown.
+활성화 시, MC 커맨드 센터에서 &quot;오류&quot;로 표기된 로그 메시지가 mc_cmd_center.log 파일로 출력될 때 알림 메시지를 표시합니다.

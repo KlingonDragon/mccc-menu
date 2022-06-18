@@ -1,0 +1,1 @@
+Change la progression de célébrité d'être plus rapide ou lente.  Réglages valides sont de -50 to 10 avec un défaut de zéro.  Négative est progrès plus lente, positive est plus rapide.  Chaque point négative est -10%, alors -10 est 100% plus lente, -20 est 200% plus lente, etc.  Positive est 100% par point, alors 2 est 200% plus rapide, jusqu'à 10 qui est 1000% plus rapide.

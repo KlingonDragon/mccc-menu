@@ -1,0 +1,1 @@
+Partner: &lt;font color='#1824BE'&gt;{0.String}&lt;/font&gt;\nPregnant with &lt;font color='#1824BE'&gt;{1.Number}&lt;/font&gt; male and &lt;font color='#1824BE'&gt;{2.Number}&lt;/font&gt; female babies\nTrimester: &lt;font color='#1824BE'&gt;{3.Number}&lt;/font&gt; &lt;font color='#FF0000'&gt;(Pregnancy is paused)&lt;/font&gt;

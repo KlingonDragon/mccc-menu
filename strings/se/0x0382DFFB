@@ -1,0 +1,1 @@
+Ändra hur snabbt eller långsamt simmar blir kända. Giltiga inställningar är mellan -50 till 10 med 0 som standard. Negativa värden ger långsammare framsteg, positiva ger snabbare framsteg. Varje negativ punkt är -10 % så -10 blir 100 % långsammare, -20 blir 200 % långsammare, osv. Varje positiv punkt är 100 % så 2 är 200 % snabbare, ända upp till 10 som är 1000 % snabbare.

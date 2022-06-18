@@ -1,1 +1,1 @@
-{1.SimFirstName} não pode ser {M1.marcado}{F1.marcada} para nunca formar um casal porque {M1.ele}{F1.ela} é {M1.casado}{F1.casada} ou está {M1.grávido}{F1.grávida}
+{1.SimFirstName} não pode ser marcad{M1.o}{F1.a} para Nunca Ter Alguém porque {M1.ele}{F1.ela} é casad{M1.o}{F1.a} ou está grávid{M1.o}{F1.a}

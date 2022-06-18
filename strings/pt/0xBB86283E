@@ -1,0 +1,1 @@
+Especifica o número máximo de desafios que serão adicionados ao lote atual.  Zero desativa completamente a funcionalidade do desafio aleatório.  Se o número especificado nesta configuração for superior ao número de desafios disponíveis para o lote atual, então esse número é utilizado em vez disso.

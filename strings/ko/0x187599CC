@@ -1,1 +1,1 @@
-Sets all skills on the selected Sim to a specific level.  Note that some special expansion skills do not get affected by this such as retail skills, and some skills may have a lower maximum level than the one selected.
+선택한 심의 모든 기술을 지정한 레벨로 만듭니다.  참고: 특정 확장팩의 기술 (예: 상점 기술)은 바뀌지 않고, 어떤 기술은 최대 레벨이 선택한 값보다 작을 수 있습니다.

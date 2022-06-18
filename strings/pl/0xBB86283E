@@ -1,0 +1,1 @@
+Określa maksymalną liczbę wyzwań, która zostanie dodana do parceli. Ustawienie „0” całkowicie wyłącza funkcjonalność losowych wyzwań. Jeżeli określona liczba przewyższa liczbę aktualnie dostępnych wyzwań parceli, wtedy wykorzystywana jest najwyższa możliwa wartość.

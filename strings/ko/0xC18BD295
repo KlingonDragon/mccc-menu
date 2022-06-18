@@ -1,1 +1,1 @@
-Change Skill progression to be slower or faster.  Valid settings are from -50 to 10 with a default of zero.  Negative is slower progress, positive is faster.  Every negative point is -10%, so -10 is 100% slower, -20 is 200% slower, etc.  Positive are 100% per point, so 2 is 200% faster up to 10 which is 1000% faster.
+기술을 습득하는 속도를 입력값에 따라 증가시키거나 감소시킵니다.  -50에서 10까지 입력할 수 있고, 기본값은 0입니다.  음수면 습득 속도가 느려지고, 양수면 빨라집니다.  음수 1당 -10%에 해당되어, 예시로 -10이면 100% 느려지게, -20이면 200% 느려지게 됩니다.  양수는 1당 100%에 해당되어, 예시로 2면 200% 빨라지고 최대 10이면 1000% 빨라지게 됩니다.

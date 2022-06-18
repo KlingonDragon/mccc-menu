@@ -1,1 +1,1 @@
-If this value is greater than zero, then NPC relationships of Sims in a married or boyfriend/girlfriend/engaged status will be evaluated to determine if there's a chance they will break-up.  Zero is no chance.  100 is a very good chance.
+설정값이 0보다 크면, 결혼/연인/약혼 상태의 NPC 심들의 관계 레벨을 검사해서 이별하게 될 가능성이 있는지 판단합니다.  0이면 가능성 없음.  100이면 가능성 높음.

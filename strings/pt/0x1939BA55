@@ -1,1 +1,1 @@
-Especificar se um Sim deve levar seus filhos com eles, quando eles se mudam devido a uma separação. Esta é a percentagem de provabilidade de crianças se mudarem. Assim pode ser definido para 0 = nunca, 100 = sempre ou algo intermediário, para uma chance aleatória.
+Indica se um Sim deve levar seus filhos com ele quando  se mudar devido a uma separação.\nIsto é a percentagem de chance das crianças se mudarem para que possa ser definida em 0 para nunca, 100 para sempre ou algo no meio para uma chance aleatória.

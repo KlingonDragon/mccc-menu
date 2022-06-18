@@ -1,1 +1,1 @@
-Change the world time by the specified day and hour offsets.  It may be necessary to save/exit/restart the game or change zones after performing a time change to reset internal game alarms and prevent interactions from freezing.
+지정한 일수와 시간 값에 따라 현재 월드 시간을 변경합니다.  보통 시간 변경 후 게임을 저장-종료-재시작해야 게임 내부 알람 시스템이 동기화되고 상호작용이 멈추지 않습니다.

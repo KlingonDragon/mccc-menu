@@ -1,0 +1,1 @@
+Definieert een categorie die beperkt welke lichaamstypes van CAS zijn toegestaan in deze Aangepaste Definitie. Elke categorie komt overeen met een type in CAS, zoals huiddetails, maar kan meerdere lichaamstypes hebben, zoals Sproeten, Voorhoofdplooi, etc.

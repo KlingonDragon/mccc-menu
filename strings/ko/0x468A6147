@@ -1,1 +1,1 @@
-This flag prevents name changes from occuring through MC Cleaner scheduled married name-syncing processes.  It will also prevent MCCC from renaming Sims when they get married.
+MC 클리너가 주기적으로 결혼한 심들의 성씨를 일치시킬 때 해당 플래그가 있는 심을 건너뛰도록 합니다.  심이 새로 결혼할 때도 MCCC가 이름을 바꾸지 않습니다.

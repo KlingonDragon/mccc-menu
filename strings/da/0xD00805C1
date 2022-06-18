@@ -1,1 +1,1 @@
-Search all valid traits that can be removed from the Sim.  The input string can be one or more words which are contained within the name of the trait, not the display name of the trait (ex: trait_female).  If no string is input, all traits will be shown.
+Søg efter alle gyldige egenskaber der kan fjernes fra simmeren. Indtastingen kan være en eller flere ord, i det indeholdte navn på egenskaben, ikke det viste navn på egenskaben (f.eks. egenskab_kvinde). Hvis der ikke indtastes noget, vil alle egenskaber blive vist.

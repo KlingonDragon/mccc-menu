@@ -1,1 +1,1 @@
-Se o número atual de vampiros no mundo é superior a esse número, então não nascerão mais vampiros. Isto não impedirá que mais vampiros sejam gerados, só para nascimentos.  -1 = padrão, sem limite.
+Se o número atual de vampiros no mundo for maior que este número, então não nascerão mais vampiros.\nIsto não impedirá que mais vampiros sejam gerados, apenas não poderão nascer.\n-1 = padrão, sem limite.

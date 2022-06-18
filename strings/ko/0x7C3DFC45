@@ -1,1 +1,1 @@
-The percentage chance a homeless household will be allowed to move-into an empty apartment.  0 for no apartments to be used, 100 for apartments to be freely used.
+노숙자 가족이 입주할 때 빈 아파트가 허용될 확률을 정합니다.  0이면 아파트가 전면 금지되고, 100이면 모든 아파트가 사용될 수 있습니다.

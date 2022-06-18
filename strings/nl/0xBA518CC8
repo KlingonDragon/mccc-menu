@@ -1,0 +1,1 @@
+Verander de voortgang van het huiswerk op school om langzamer of snelelr te zijn. Geldige instellingen zijn van -3 tot 50 met een standaardwaarde van nul. Negatief is langzamere vooruitgang, positief is sneller. Elk negatief punt is -100%, dus -1 is 100% langzamer, -2 is 200% langzamer, enz. 10 is ongeveer 1/4 van de normale huiswerksnelheid, 20 is ongeveer 1/8, enz.

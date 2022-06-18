@@ -1,0 +1,1 @@
+Mudar a progressão da lição de casa da universidade para ser mais lenta ou mais rápida.  As definições válidas são de -3 a 50 com um padrão de zero.  Negativo é um progresso mais lento, positivo é mais rápido.  Cada ponto negativo é -100%, portanto -1 é 100% mais lento, -2 é 200% mais lento, etc.  10 é cerca de 1/4 da velocidade normal do trabalho de casa, 20 é cerca de 1/8, etc.

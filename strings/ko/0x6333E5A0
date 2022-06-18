@@ -1,1 +1,1 @@
-If the current number of spellcasters in the world is greater than this number, then no more spellcasters will be born.  This will not keep more spellcasters from being generated, only born.  -1 = default, no limit.
+현재 전체 마법사 수가 설정값보다 크면, 마법사가 더 이상 태어나지 않습니다.  게임에서 추가로 생성하는 마법사를 제한하지 않으며, 새로 태어나는 마법사만 막습니다. -1 = 기본값, 무제한.

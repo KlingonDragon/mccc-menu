@@ -1,1 +1,1 @@
-If enabled, the ShowLiveObjects cheat (bb.showliveeditobjects) will always be enabled upon loading the game.  Note that the bb.showhiddenobjects command is always automatically run for this setting for it to work correctly.
+활성화 시, 환경 디버그 아이템 표시 치트(bb.showliveeditobjects)가 항상 활성화된 상태로 게임을 불러옵니다.  사용하면 치트 기능을 제대로 적용하기 위해 추가 디버그 아이템 치트인 bb.showhiddenobjects 명령도 자동으로 함께 활성화됩니다.

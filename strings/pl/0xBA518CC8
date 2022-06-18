@@ -1,0 +1,1 @@
+Zmień postęp szkolnej pracy domowej na wolniejszy albo szybszy. Wartości ujemne spowalniają postęp, dodatnie przyspieszają. Każdy ujemny punkt zmniejsza prędkość o 100%, więc -1 sprawia, że odrabianie zajmuje 100% więcej czasu, -2 - 200%, itd. Wartość 10 sprawia, że odrabianie pracy domowej zajmuje około 1/4 domyślnego czasu, 20 – około 1/8, itd.

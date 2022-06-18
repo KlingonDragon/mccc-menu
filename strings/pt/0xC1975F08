@@ -1,1 +1,1 @@
-Se um ou ambos os pais têm um tom de pele personalizado, será escolhido um desses dois tons de pele aleatóriamente para os seus descendentes.
+Se um dos pais tem um tom de pele personalizado, deve ser usado um dos dois tons de pele dos pais em vez de um tom intermédio para os descendentes.

@@ -1,0 +1,1 @@
+Definiert eine Kategorie, die einschränkt, welche Körpertypen aus CAS in dieser benutzerdefinierten Definition zulässig sind.  Jede Kategorie entspricht einem Typ in CAS, z. B. Hautdetails, kann aber mehrere Körpertypen wie Sommersprossen, Stirnfalte usw. enthalten.

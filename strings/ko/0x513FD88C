@@ -1,1 +1,1 @@
-The maximum length allowed for First and Last Name each when renaming a Sim with MCCC.  Default is 14.  WARNING: Specifying a first or last name longer than 14 characters will result in a CAS error if that Sim is modified and saved.
+MCCC로 심의 이름을 변경할 때 성씨와 이름 각각의 최대 글자수를 지정합니다.  기본값은 14.  경고! 14를 초과해서 설정하면 심을 CAS에서 수정하고 저장할 때 오류가 발생합니다.

@@ -1,1 +1,1 @@
-A definição dessa percentagem vai aumentar ou diminuir a quantidade semanal da fatura. O padrão é &quot;0&quot;, uma definição de &quot;-100&quot; não haveria contas e uma definição de &quot;100&quot; as contas seriam o dobro mais caras.
+A definição desta percentagem aumentará ou diminuirá o valor da conta semanal.\nO valor padrão é zero, que é o valor normal da conta.\n-100 não haveria contas.\n100 seria o dobro das notas.

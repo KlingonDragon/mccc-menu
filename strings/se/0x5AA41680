@@ -1,1 +1,1 @@
-Den procent som en normal relation kommer att degraderas. 100 procent är normalvärde, 0 procent är ingen degradering. Högre än 100 procent resulterar i snabbare degradering än normalt.
+Den procent som en relation normalt kommer att sjunka med. 100 procent är standardvärdet. 0 procent betyder att relationer aldrig sjunker. Högre än 100 procent betyder att relationer sjunker snabbare än normalt.

@@ -1,1 +1,1 @@
-Change Relationship progression to be slower or faster.  Valid settings are from -50 to 10 with a default of zero.  Negative is slower progress, positive is faster.  Every negative point is -10%, so -10 is 100% slower, -20 is 200% slower, etc.  Positive are 100% per point, so 2 is 200% faster up to 10 which is 1000% faster.
+调整关系值增长速率减慢或加快。有效值介于-50至10之间，0为默认值。设为负值则增长速率减慢，设为正值则增长速率加快。每1点负值代表-10%，例如-10表示100%减慢、-20表示200%减慢，依此类推。每1点正值代表100%，例如2表示200%加快，最高可设为10表示1000%加快。

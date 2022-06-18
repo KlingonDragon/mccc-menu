@@ -1,1 +1,1 @@
-Se o número atual de estrangeiros no mundo é superior a esse número, então não vão nascer mais estrangeiros. Isso não impede que mais alienígenas sejam gerados, apenas por nascimento. O valor padrão= &quot;-1&quot;, (sem limite).
+Se o número atual de alienígenas no mundo for maior do que este número, então não nascerá mais nenhum alienígena.\nIsto não impedirá que mais alienígenas sejam gerados, apenas não nascem.\n-1 = padrão, sem limite.

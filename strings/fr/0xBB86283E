@@ -1,0 +1,1 @@
+Spécifie le nombre maximum de défis qui seront ajoutés au lot actuel. Zero désactive complètement la fonctionnalité de défi aléatoire. Si le nombre indiqué dans ce paramètre est supérieur au nombre de défis disponibles pour le lot actuel, ce nombre est utilisé à la place.

@@ -1,1 +1,1 @@
-{0.SimName} had {1.Number} male {S1.baby}{P1.babies} and {2.Number} female {S2.baby}{P2.babies} with {3.SimName}!
+{0.SimName}이(가) {1.Number}명의 남자 {S1.아기와}{P1.아기들과} {2.Number}명의 여자 {S2.아기를}{P2.아기들을} {3.SimName} 사이에서 낳았습니다!

@@ -1,0 +1,1 @@
+Gibt die maximale Anzahl der Herausforderungen an, die dem aktuellen Grundstück hinzugefügt werden.  Der Wert Null deaktiviert die Funktion der zufälligen Herausforderung.  Ist die hier angegebene Zahl größer als die Anzahl der für das aktuelle Grundstück verfügbaren Herausforderungen, wird stattdessen jene Zahl verwendet.

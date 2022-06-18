@@ -1,0 +1,1 @@
+Ce paramètre limite les lots auxquels les défis aléatoires seront appliqués. Si le Sim actif se trouve sur un type de lot invalide au moment de créer des défis alétoire, il sera vérifié encore plus tard.

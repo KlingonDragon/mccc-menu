@@ -1,0 +1,1 @@
+Denna färdighetslista bestämmer vilka färdigheter som exkluderas när inställningen &quot;Justering av färdighetssvårighet&quot; används. Standard är alla färdigheter, men om färdigheter specificeras i den här inställningen kommer alla färdigheter utom färdigheterna i denna lista att justeras med svårighetsgraden.

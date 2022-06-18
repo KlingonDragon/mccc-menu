@@ -1,1 +1,1 @@
-{0.String} ändrades för att inkludera tomt typer: {1.string}.\n\n En omstart av spelet krävs för att ändringar skall ha effekt. 
+{0.String} ändrades för att inkludera tomttyperna: {1.string}.\n\nSpelet behöver startas om för att ändringarna av denna inställning ska börja gälla.

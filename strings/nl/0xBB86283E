@@ -1,0 +1,1 @@
+Specificeert het maixmale aantal uitdagingen dat aan de huidige kavel wordt toegevoegd. Nul schakelt de functionaliteit voor willekeurige uitdagingen helemaal uit. Als het aantal in deze instelling meer is dan het aantal beschikbare uitdagingen voor de huidige kavel, dan wordt dat aantal in plaats daarvan gebruikt.

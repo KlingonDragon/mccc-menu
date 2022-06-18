@@ -1,0 +1,1 @@
+Defines the percent chance that this custom definition will be used on a Sim aging into this category group or a random Sim that is generated for the game that is within the age category group.  Note that random Sims generated using tray import don't use this setting.  They use the &quot;Change Tray Import Percent&quot; setting.

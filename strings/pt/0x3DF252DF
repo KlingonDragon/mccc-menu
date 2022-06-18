@@ -1,1 +1,1 @@
-Auto-save ativado: {0.String}\nNome: {1.String}\nSlot-número: {2.String}\nNúmero Maximo: {3.Number}\nIntervalo: {4.Number} {5.String}\nHora de Alarme: {6.String}
+Salvamento Automático Ativado: {0.String}\nNome: {1.String}\nNúmero de Slot: {2.String}\nNúmero Máximo: {3.Number}\nIntervalo de Salvamento: {4.Number} {5.String}\nHora do Despertador: {6.String}

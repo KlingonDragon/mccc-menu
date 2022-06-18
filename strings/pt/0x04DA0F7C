@@ -1,1 +1,1 @@
-O número de milissegundos em tempo real por cada segundos Sim. O padrão é de &quot;25&quot;, um valor menor faz que os dias passem mais rápidos e um valor maior faz com que os dias passam mais lentos.
+O número de milissegundos em tempo real para cada segundo Sim.\nO padrão é 25 e menos do que isso faz com que os dias corram mais rápido e mais do que isso faz com que os dias corram mais lentamente.

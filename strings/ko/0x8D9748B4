@@ -1,1 +1,1 @@
-Defines the number of relationships to always leave when doing a Relationship Cleaning.  If this number of relationships is all that remains, no further cleaning will occur.
+관계 청소를 할 때 반드시 남겨둘 관계의 수를 설정합니다. 청소할 때 관계 수가 이 값과 일치한다면 청소를 중지합니다.

@@ -1,0 +1,1 @@
+Define uma categoria que limita quais tipos de corpos do CAS serão permitidos nesta Definição Personalizada.  Cada categoria corresponde a um tipo no CAS, como Detalhes de Pele, mas pode ter múltiplos tipos de corpo como Sardas, Ruga de Testa, etc.

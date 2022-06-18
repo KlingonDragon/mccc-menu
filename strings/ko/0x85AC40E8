@@ -1,1 +1,1 @@
-The percent chance applied to each modifier that may make spouse's relationship increase or decrease over time.  A zero value means that relationship changes are disabled.
+시간이 지나면서 배우자끼리의 관계 레벨이 변하는 정도를 설정합니다.  입력값이 상승 또는 하락 수치에 곱해지며, 0이면 관계 레벨이 변하지 않습니다.

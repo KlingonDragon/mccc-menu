@@ -1,1 +1,1 @@
-Se o número atual de feiticeiros no mundo for maior que esse número, não haverá mais feiticeiros. Isso não impedirá que mais feiticeiros sejam gerados, apenas nascidos. -1 = padrão, sem limite.
+Se o número atual de feiticeiros no mundo for maior do que este número, então não nascerá mais nenhum feiticeiro.\nIsto não impedirá a geração de mais feiticeiros, apenas não nascem.\n-1 = padrão, sem limite.

@@ -1,0 +1,1 @@
+Définit une catégorie qui limite les types de corps du CUS qui seront autorisés dans cette définition personnalisée. Chaque catégorie correspond à un type dans CUS, comme les détails de la peau, mais peut avoir plusieurs types de corps comme les taches de rousseur, le pli du front, etc.

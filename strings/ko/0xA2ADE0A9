@@ -1,1 +1,1 @@
-Defines the maximum number of Sims allowed in a household.  Note that if this is changed to more than 8, CAS will not function correctly to show all Sims in the household.
+한 가족의 최대 구성원 수를 지정합니다.  8보다 높은 숫자를 입력할 경우 CAS 화면에서 모든 심이 보이지 않습니다.

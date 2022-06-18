@@ -1,1 +1,1 @@
-A Ghost flagged to Never Delete will be bypassed when the core game and cleaning would normally delete them.
+삭제 금지 플래그가 추가된 유령은 조건이 충족돼도 기본 게임과 MCCC 청소 작업이 삭제하지 않습니다.

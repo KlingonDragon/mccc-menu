@@ -1,0 +1,1 @@
+Supprime n'importe quel relation à travers les quartiers qui concerne un Sim qui est mort et libéré (pas actuellement une fantôme) et qui est à un niveau de zéro.  Ceci peut affecter les arbres généalogiques!  Utiliser à votre propre risque!

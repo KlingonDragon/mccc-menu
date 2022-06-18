@@ -1,0 +1,1 @@
+Skift karakter værdier for at være langsommere eller hurtigere. Gyldige indstillinger er fra -50 til 10 med standardværdien nul. Negativt er langsommere fremskridt, positivt er hurtigere. Hvert negativt punkt er -10%, så -10 er 100% langsommere, -20 er 200% langsommere osv. Positivt er 100% pr. point, så 2 er 200% hurtigere op til 10, hvilket er 1000% hurtigere.

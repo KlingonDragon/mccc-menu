@@ -1,1 +1,1 @@
-¡{0.SimName} e {3.SimName} tiveram {1.Number} {S1.menino}{P1.meninos} e {2.Number} {S2.menina}{P2.meninas}!
+{0.SimName} e {3.SimName} tiveram {1.Number} menino{P1.s} e {2.Number} menina{P2.s}!

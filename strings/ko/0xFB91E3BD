@@ -1,1 +1,1 @@
-Kick {0.SimName} out of the house?  {M0.He}{F0.She} will try to move in with parents in the world if {M0.he}{F0.she} can.  If not, {M0.he}{F0.she} will be adopted by a random household.
+{0.SimName}을(를) 집에서 추방합니까?  {M0.그}{F0.그녀}는 가능한 경우 부모 집으로 이사갑니다.  없을 경우, {M0.그}{F0.그녀}는 무작위의 가족에게 입양됩니다.

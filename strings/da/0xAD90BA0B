@@ -1,0 +1,1 @@
+Denne færdighedsliste bestemmer, hvilke færdigheder der vil blive udelukket, når færdigheds sværhedskrav indstillinger bruges. Standard er for alle færdigheder, men hvis færdigheder er angivet i denne indstilling, vil alle færdigheder undtagen dem på denne liste blive justeret med sværhedsgraden.

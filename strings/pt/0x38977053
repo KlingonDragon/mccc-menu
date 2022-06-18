@@ -1,0 +1,1 @@
+Esta definição limita os lotes aos quais os desafios aleatórios serão aplicados.  Se o Sim ativo estiver em um tipo de lote inválido quando chegar a hora de criar desafios aleatoriamente, ele será verificado novamente mais tarde.

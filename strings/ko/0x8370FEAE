@@ -1,1 +1,1 @@
-Search all autonomous interactions currently running on the lot, from all Sims.  The input string can be one or more words which are contained within the name of the running interactions.  If no string is input, all running interactions will be shown.
+현재 부지에서 일어나고 있는 모든 자유 의지 상호작용을 검색합니다.  하나 이상의 단어를 입력할 수 있고, 검색어가 명칭에 들어있는 상호작용을 표시합니다.  비어두면 현재 일어나는 모든 상호작용을 나열합니다.

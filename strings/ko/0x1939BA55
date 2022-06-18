@@ -1,1 +1,1 @@
-Specifies whether a Sim should take their children with them when they move-out due to a break-up.  It is the percent chance the children will move so it can be set to 0 for never, 100 for always or something in between for a random chance.
+심이 상대와 이별한 후에 자식을 데리고 이사 나갈지 설정합니다.  0이면 자녀들이 절대로 함께 가지 않고, 100이면 항상 같이 이사가며, 이 사이의 값은 자식이 함께 갈 확률을 정해줍니다.

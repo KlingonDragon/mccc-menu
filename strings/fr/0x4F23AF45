@@ -1,0 +1,1 @@
+Ce paramètre spécifie le temps d'attente maximum avant de randomiser les défis du lot actuel. Le type d'unités que nous spécifions ici est basé sur le paramètre « Type d'unité de défi ». Notez que l'alarme pour cela se réinitialisera lorsque le jeu se rechargera et l'alarme exacte est contrôlée par le système de file d'attente d'EA, donc ce ne sera pas le moment exact !

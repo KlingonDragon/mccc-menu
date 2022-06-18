@@ -1,1 +1,1 @@
-Modifying this setting will change the rate at which motives decay for this type of Sim.  100 = normal.  0 = No motive decay.  200 = Double motive decay.
+선택한 유형의 심의 욕구 감소 속도를 입력값에 따라 조절합니다.  100 = 기존 감소 속도.  0 = 감소하지 않음.  200 = 감소 속도 2배.

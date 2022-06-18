@@ -1,0 +1,1 @@
+Změňte rychlost dělání domácích úkolů. Možná nastavení jsou od -3 do 50, se základním nastavením na 0. Záporná čísla znamenají pomalejší rychlost, kladná rychlejší. Každý záporný bod je -100%, tedy -1 je 100% pomalejší, -2 je 200% pomalejší, atd.  U kladných čísel je 10 jako 1/4 rychlost normální rychlosti, 20 jako 1/8, atd.
