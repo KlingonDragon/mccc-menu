@@ -37,7 +37,7 @@ function menuRender(path) {
         if (!response.ok) { throw new Error('Network response was not OK'); }
         return response.json()
     }).then(data => {
-        console.log(data);
+        // console.log(data);
         $('title').innerText = `MCCC Menu Online | ${string(data.title)}`;
         $('section#title').innerHTML = string(data.title);
         $('section#desc').innerHTML = string(data.desc) || '';
@@ -200,6 +200,8 @@ function versionInfo() {
     fetch('/version.php').then(response => response.json()).then(data => {
         $(`output#version_mccc`).outerHTML = data.mccc;
         $(`output#version_sims`).outerHTML = data.sims;
+    }).catch(error => {
+        console.error(`versionInfo() - Fetch Error:`, error)
     });
     return `${string('mccc_version')} <output id="version_mccc"></output><br/>${string('sims_version')} <output id="version_sims"></output><br/>`
 }
