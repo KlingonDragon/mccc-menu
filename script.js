@@ -24,6 +24,12 @@ const lang = ((supported_langs) => {
     return 'en';
 })(['cn','cs','da','de','en','es','fr','it','ja','ko','nl','pl','pt','ru','se'])
 
+function upLevel() {
+    path = location.hash.split('/');
+    path.pop();
+    location.hash = path.join('/');
+}
+
 function menuRender(path) {
     path = path.split('#').pop();
     location.hash = path
@@ -32,6 +38,7 @@ function menuRender(path) {
         return response.json()
     }).then(data => {
         console.log(data);
+        $('title').innerText = `MCCC Menu Online | ${string(data.title)}`;
         $('section#title').innerHTML = string(data.title);
         $('section#desc').innerHTML = string(data.desc) || '';
         $('section#minmax').innerHTML = `${data.min ? `${string('min', '{0.String}', data.min)}` : ''}&ensp;${data.max ? `${string('min', '{0.String}', data.max)}` : ''}`;
@@ -45,7 +52,7 @@ function menuRender(path) {
 <button class="back">${string('ok')}</button>
             `;
             $$('section#buttons .back').forEach((button => {
-                button.onclick = () => { history.back(); };
+                button.onclick = upLevel;
             }))
             $$('section#buttons .default').forEach((button => {
                 button.onclick = () => { 
@@ -106,7 +113,7 @@ ${item.img ? `<img alt="" ${icon(item.img)}/>` : data.default ? (item.name == da
 </button>
             `;
         }
-        if (path == 'MCCC' || data?.done) {
+        if (path == 'MCCC' || path == 'Help' || data?.done) {
             $('section#back').classList.add('hidden');
         } else {
             $('section#back').classList.remove('hidden');
@@ -132,9 +139,9 @@ function pathStrings(path) {
             if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
             return response.json()
         }).then(data => {
-            $(`output#path_${hash}`).outerHTML = string(data.title);
+            $$(`output.path_${hash}`).forEach(output=>output.outerHTML = string(data.title));
         });
-        return `${old} &gt; <output id="path_${hash}">${decodeURI(next)}</output>`;
+        return `${old} &gt; <output class="path_${hash}">${decodeURI(next)}</output>`;
     }, '|').replace('| &gt; ', '');
 }
 function menu_desc(path) {
@@ -143,11 +150,11 @@ function menu_desc(path) {
         if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
         return response.json()
     }).then(data => {
-        $(`output#desc_${id}`).outerHTML = data.desc ? string(data.desc) :'';
+        $$(`output.desc_${id}`).forEach(output=>output.outerHTML = data.desc ? string(data.desc) :'');
     }).catch(error => {
         console.error(`menu_desc(${path}) - Fetch Error:`, error)
     });
-    return `<output id="desc_${id}"></output>`;
+    return `<output class="desc_${id}"></output>`;
 }
 function defaultMenuOption(default_value) {
     if (Array.isArray(default_value)) {
@@ -183,7 +190,7 @@ function string(id, replace = '', replace_with = '') {
         return response.text()
     }).then(string_text => {
         localStorage.setItem(`string-${lang}-${id}`, JSON.stringify({ string: string_text, timestamp: Date.now() }));
-        $(`output#string_${id}`).outerHTML = string_text.replace(replace, replace_with);
+        $$(`output.string_${id}`).forEach(output=>output.outerHTML = string_text.replace(replace, replace_with));
     }).catch(error => {
         console.error(`string(${id}) - Fetch Error:`, error)
     });
@@ -200,8 +207,8 @@ function versionInfo() {
 onpopstate = event => menuRender(location.hash);
 window.addEventListener('DOMContentLoaded', () => {
     $('html').lang = lang;
-    $('section#back button').onclick = () => { history.back(); };
-    $('section#done button').onclick = () => { history.back(); };
+    $('section#back button').onclick = upLevel;
+    $('section#done button').onclick = upLevel;
     menuRender(location.hash || '#MCCC');
 });
 if ("serviceWorker" in navigator) {
