@@ -1,0 +1,45 @@
+{
+    "items": [
+        {
+            "link": "Valid_Marriage_Ages",
+            "name": "0x2462617A"
+        },
+        {
+            "link": "Days_to_Run_Checks",
+            "name": "0xCFD11A73"
+        },
+        {
+            "link": "Bypass_active_Sim_romances",
+            "name": "0x50A41C47"
+        },
+        {
+            "link": "Bypass_Played_Households",
+            "name": "0xEA75E288"
+        },
+        {
+            "link": "Marriage_Percentage",
+            "name": "0x34FD05A5"
+        },
+        {
+            "link": "Allow_Homeless_Marriage",
+            "name": "0x8E675C73"
+        },
+        {
+            "link": "Flag_Gender_Preference",
+            "name": "0x9039669A"
+        },
+        {
+            "link": "Use_Gender_Preference",
+            "name": "0x2288DAC1"
+        },
+        {
+            "link": "Bypass_Robots",
+            "name": "0x1D193DF1"
+        },
+        {
+            "link": "Bypass_Dorm_Residents",
+            "name": "0x4FCB7A9F"
+        }
+    ],
+    "title": "0x6D5A241B"
+}

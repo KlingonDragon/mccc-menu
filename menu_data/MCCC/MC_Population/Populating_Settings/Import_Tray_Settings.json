@@ -1,0 +1,33 @@
+{
+    "items": [
+        {
+            "link": "Import_Tray_Sim_Percent",
+            "name": "0x2E021A8B"
+        },
+        {
+            "link": "Import_Tray_Sim_Type",
+            "name": "0x37F91E3A"
+        },
+        {
+            "link": "Limit_Import_By_Tags",
+            "name": "0x7E623EE6"
+        },
+        {
+            "link": "Include_Gender_Options",
+            "name": "0x896F1905"
+        },
+        {
+            "link": "Include_Clothing",
+            "name": "0xA4903212"
+        },
+        {
+            "link": "Import_Sim_Name",
+            "name": "0x99BED4AF"
+        },
+        {
+            "link": "Import_Bypass_Appearance",
+            "name": "0x6E856F65"
+        }
+    ],
+    "title": "0xC72D3DD0"
+}

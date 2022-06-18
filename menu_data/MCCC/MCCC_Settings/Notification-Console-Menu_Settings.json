@@ -1,0 +1,25 @@
+{
+    "title": "0x5A037DE6",
+    "items": [
+        {
+            "link": "Logging_Settings",
+            "name": "0x196F81AB"
+        },
+        {
+            "link": "Notification_Settings",
+            "name": "0xFDEB7EBB"
+        },
+        {
+            "link": "Show_Menu_Settings",
+            "name": "0x272800C9"
+        },
+        {
+            "link": "Console_Command_Settings",
+            "name": "0xAB0F2F00"
+        },
+        {
+            "link": "Phone_Texts",
+            "name": "0x73B07378"
+        }
+    ]
+}

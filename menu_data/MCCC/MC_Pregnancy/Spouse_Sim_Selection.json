@@ -1,0 +1,33 @@
+{
+    "items": [
+        {
+            "link": "Valid_Spouse_Ages",
+            "name": "0x3AF43A03"
+        },
+        {
+            "link": "Enforce_Family",
+            "name": "0xF4BA1217"
+        },
+        {
+            "link": "Spouse_Gender",
+            "name": "0xE70010D6"
+        },
+        {
+            "link": "Same-Sex_Percentage",
+            "name": "0x59EF841D"
+        },
+        {
+            "link": "Use_Same_Age-Group",
+            "name": "0x60623E92"
+        },
+        {
+            "link": "Occupancy_Preference",
+            "name": "0x2203F300"
+        },
+        {
+            "link": "Same_Occult_Only",
+            "name": "0x4B179EFF"
+        }
+    ],
+    "title": "0x0A8C1B7B"
+}

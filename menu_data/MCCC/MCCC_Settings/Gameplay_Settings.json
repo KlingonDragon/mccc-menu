@@ -1,0 +1,45 @@
+{
+    "title": "0x65C3DC40",
+    "items": [
+        {
+            "link": "Pause_on_zone",
+            "name": "0x2D6D8F8A"
+        },
+        {
+            "link": "Game_Time_Speed",
+            "name": "0x1FBC780F"
+        },
+        {
+            "link": "Sims_Die_On_Lot",
+            "name": "0x51C1CDBF"
+        },
+        {
+            "link": "Skill_Difficulty_Adjustment",
+            "name": "0xBCC1FE04"
+        },
+        {
+            "link": "Adopt_Neglected_Child",
+            "name": "0x2F1CB910"
+        },
+        {
+            "link": "Maximum_Household_Size",
+            "name": "0x920B158D"
+        },
+        {
+            "link": "Motive_Decay",
+            "name": "0xBDEA781D"
+        },
+        {
+            "link": "Teleport_Sim_Overlap",
+            "name": "0x3698F5B5"
+        },
+        {
+            "link": "Use_Random_Aging",
+            "name": "0x40EFC103"
+        },
+        {
+            "link": "Maximum_Rename_Length",
+            "name": "0x1BC01433"
+        }
+    ]
+}

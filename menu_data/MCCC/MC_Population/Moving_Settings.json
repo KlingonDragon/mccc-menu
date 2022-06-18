@@ -1,0 +1,49 @@
+{
+    "title": "0xACB681D4",
+    "items": [
+        {
+            "link": "Allow_Homeless_Move-In",
+            "name": "0xA4A53F70"
+        },
+        {
+            "link": "Homeless_Apartment_Percent",
+            "name": "0x3A90BD0B"
+        },
+        {
+            "link": "Move_Out_Elders",
+            "name": "0x0625935D"
+        },
+        {
+            "link": "Move_Single_Sims",
+            "name": "0xE1F31A7D"
+        },
+        {
+            "link": "Move_Teens_As_Dependents",
+            "name": "0x61695E00"
+        },
+        {
+            "link": "Bypass_Played_Households",
+            "name": "0xEA75E288"
+        },
+        {
+            "link": "Maximum_Household_Pets",
+            "name": "0xAD3A969D"
+        },
+        {
+            "link": "Open_Houses",
+            "name": "0x61F1E7BC"
+        },
+        {
+            "link": "Maximum_Homeless",
+            "name": "0x9BE9609D"
+        },
+        {
+            "link": "Enforce_Vampire_Homes",
+            "name": "0x9C5A2292"
+        },
+        {
+            "link": "Bypass_Dorm_Residents",
+            "name": "0x4FCB7A9F"
+        }
+    ]
+}

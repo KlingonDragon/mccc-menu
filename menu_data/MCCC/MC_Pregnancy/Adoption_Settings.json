@@ -1,0 +1,26 @@
+{
+    "desc": "0x938B35B0",
+    "items": [
+        {
+            "link": "Opposite_Sex_Adoption_Percent",
+            "name": "0x5D5B48D2"
+        },
+        {
+            "link": "Same_Sex_Adoption_Percent",
+            "name": "0xA8018E2F"
+        },
+        {
+            "link": "Adoption_Ages",
+            "name": "0x0806E874"
+        },
+        {
+            "link": "Adoption_Percent_Male",
+            "name": "0xA6EC392A"
+        },
+        {
+            "link": "Rename_Non-Active_Adoptions",
+            "name": "0x74D83983"
+        }
+    ],
+    "title": "0xC3AFD575"
+}

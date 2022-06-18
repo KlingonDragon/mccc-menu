@@ -1,0 +1,45 @@
+{
+    "items": [
+        {
+            "link": "Valid_Pregnancy_Ages",
+            "name": "0xB9AF206D"
+        },
+        {
+            "link": "Days_to_Run_Checks",
+            "name": "0xCFD11A73"
+        },
+        {
+            "link": "Bypass_active_Sim_romances",
+            "name": "0x50A41C47"
+        },
+        {
+            "link": "Bypass_Played_Households",
+            "name": "0xEA75E288"
+        },
+        {
+            "link": "Male_Pregnancy",
+            "name": "0xBB140DCA"
+        },
+        {
+            "link": "Pregnancy_Percentage",
+            "name": "0x78DDE736"
+        },
+        {
+            "link": "Allow_Homeless_Pregnancy",
+            "name": "0x09A32934"
+        },
+        {
+            "link": "Flag_Gender_Preference",
+            "name": "0x9039669A"
+        },
+        {
+            "link": "Use_Gender_Preference",
+            "name": "0x2288DAC1"
+        },
+        {
+            "link": "Days_Until_Max_Age",
+            "name": "0xE103838A"
+        }
+    ],
+    "title": "0x49AFA6D8"
+}

@@ -1,0 +1,37 @@
+{
+    "items": [
+        {
+            "link": "Offspring_Gender",
+            "name": "0xC5F89886"
+        },
+        {
+            "link": "Maximum_Offspring",
+            "name": "0x88762EAD"
+        },
+        {
+            "link": "Maximum_Household_Children",
+            "name": "0x00512293"
+        },
+        {
+            "link": "Rename_Non-Active_Offspring",
+            "name": "0x86AA8186"
+        },
+        {
+            "link": "Identical_Offspring_Chance",
+            "name": "0xBE67CDB5"
+        },
+        {
+            "link": "Sync_Child_Surname",
+            "name": "0x8BC85234"
+        },
+        {
+            "link": "Inherit_Trait_Type",
+            "name": "0x3F78BD45"
+        },
+        {
+            "link": "Maximum_Inherit_Traits",
+            "name": "0xDCB8C2B6"
+        }
+    ],
+    "title": "0xBFE3423F"
+}

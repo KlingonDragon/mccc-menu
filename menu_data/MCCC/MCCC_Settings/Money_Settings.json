@@ -1,0 +1,33 @@
+{
+    "title": "0x17DA3B08",
+    "items": [
+        {
+            "link": "Pay_Child_Support",
+            "name": "0x2650C306"
+        },
+        {
+            "link": "Child_Support_Percent",
+            "name": "0xE71DCDEF"
+        },
+        {
+            "link": "Change_Bills_Percent",
+            "name": "0x6C0CE708"
+        },
+        {
+            "link": "Apartment_Bill_Percent",
+            "name": "0xC67BB15B"
+        },
+        {
+            "link": "Auto-Pay_Bills",
+            "name": "0x14156DB3"
+        },
+        {
+            "link": "Inheritance_Sim_Type",
+            "name": "0x48EC2348"
+        },
+        {
+            "link": "Inheritance_Spouse_First",
+            "name": "0x489EA11C"
+        }
+    ]
+}

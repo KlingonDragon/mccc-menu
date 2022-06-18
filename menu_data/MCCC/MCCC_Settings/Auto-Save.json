@@ -1,0 +1,34 @@
+{
+    "title": "0x7678A577",
+    "desc": "0x97FE289F",
+    "items": [
+        {
+            "link": "Auto-Save_Name",
+            "name": "0xB4B4F461"
+        },
+        {
+            "link": "Auto-Save_Slot-Number",
+            "name": "0xA4486396"
+        },
+        {
+            "link": "Maximum_Save_Slot_Number",
+            "name": "0x54BBAB97"
+        },
+        {
+            "link": "Save_Interval_Amount",
+            "name": "0xCF5436E5"
+        },
+        {
+            "link": "Save_Interval_Type",
+            "name": "0xD73B1A36"
+        },
+        {
+            "link": "Show_Confirmation_Dialog",
+            "name": "0xC0ADAF47"
+        },
+        {
+            "link": "Use_Auto-save",
+            "name": "0x0B60B174"
+        }
+    ]
+}

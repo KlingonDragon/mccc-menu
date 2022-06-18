@@ -1,0 +1,25 @@
+{
+    "title": "0x25224441",
+    "items": [
+        {
+            "link": "Sim_Cleaner",
+            "name": "0xF81D33E0"
+        },
+        {
+            "link": "Item_Cleaner",
+            "name": "0x253386EA"
+        },
+        {
+            "link": "Neighborhood_Cleaner",
+            "name": "0x34BF8ABD"
+        },
+        {
+            "link": "Relationship_Cleaner",
+            "name": "0xD5694B93"
+        },
+        {
+            "link": "Detail_Logging",
+            "name": "0x11B0E33B"
+        }
+    ]
+}

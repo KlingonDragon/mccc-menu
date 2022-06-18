@@ -1,0 +1,33 @@
+{
+    "items": [
+        {
+            "link": "Bypass_Sim_Culling",
+            "name": "0x852167F7"
+        },
+        {
+            "link": "Bypass_Clown_Walkby",
+            "name": "0xBA5F62D5"
+        },
+        {
+            "link": "No_Reaper_Stalking",
+            "name": "0xF5C1DACD"
+        },
+        {
+            "link": "Randomize_Visiting_Sims",
+            "name": "0x876ACD4E"
+        },
+        {
+            "link": "Disable_Immortal_Sims",
+            "name": "0xD2631B42"
+        },
+        {
+            "link": "Maximum_Sims_In_Zone",
+            "name": "0xB40A5EFF"
+        },
+        {
+            "link": "Adjust_Sims_on_Lot",
+            "name": "0x9FC9017F"
+        }
+    ],
+    "title": "0x42F43716"
+}

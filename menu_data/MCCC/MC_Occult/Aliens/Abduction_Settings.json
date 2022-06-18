@@ -1,0 +1,29 @@
+{
+    "title": "0x7077E155",
+    "items": [
+        {
+            "link": "Abduction_Frequency",
+            "name": "0xE55A3324"
+        },
+        {
+            "link": "Abduction_Start_Time",
+            "name": "0xF3DF7C95"
+        },
+        {
+            "link": "Abduction_Time_Length",
+            "name": "0x660A3E93"
+        },
+        {
+            "link": "Hours_Between_Abductions",
+            "name": "0x55558DC2"
+        },
+        {
+            "link": "Abduction_Ages",
+            "name": "0x020F8F70"
+        },
+        {
+            "link": "Allow_NPC_Abductions",
+            "name": "0x27B77A2B"
+        }
+    ]
+}

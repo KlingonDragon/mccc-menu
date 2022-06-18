@@ -1,0 +1,33 @@
+{
+    "items": [
+        {
+            "link": "Ages_to_Run_Pregnancy",
+            "name": "0xB3733945"
+        },
+        {
+            "link": "Partner_Age",
+            "name": "0x99B2AA11"
+        },
+        {
+            "link": "Maximum_Offspring",
+            "name": "0x88762EAD"
+        },
+        {
+            "link": "Pregnancy_Percentage",
+            "name": "0x78DDE736"
+        },
+        {
+            "link": "Maximum_Household_Children",
+            "name": "0x00512293"
+        },
+        {
+            "link": "Allow_Homeless_Pregnancy",
+            "name": "0x09A32934"
+        },
+        {
+            "link": "Show_Pregnancy_Notifications",
+            "name": "0x2376178A"
+        }
+    ],
+    "title": "0x43CC44CB"
+}

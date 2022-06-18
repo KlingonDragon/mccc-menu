@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "link": "Base_Game",
+            "name": "0x40786C8B"
+        },
+        {
+            "link": "Get_Together",
+            "name": "get_together"
+        },
+        {
+            "link": "Dine_Out",
+            "name": "dine_out"
+        },
+        {
+            "link": "Spa_Day",
+            "name": "spa_day"
+        },
+        {
+            "link": "City_Living",
+            "name": "city_living"
+        }
+    ],
+    "title": "0x9FC9017F"
+}

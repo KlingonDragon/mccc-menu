@@ -1,0 +1,41 @@
+{
+    "items": [
+        {
+            "link": "Pregnant_Sim_Selection",
+            "name": "0x49AFA6D8"
+        },
+        {
+            "link": "Partner_Sim_Selection",
+            "name": "0xF937BCF8"
+        },
+        {
+            "link": "Offspring",
+            "name": "0xBFE3423F"
+        },
+        {
+            "link": "Other_Pregnancy",
+            "name": "0x35C10CF5"
+        },
+        {
+            "link": "Adoption_Settings",
+            "name": "0xC3AFD575"
+        },
+        {
+            "link": "Marriage_Sim_Selection",
+            "name": "0x6D5A241B"
+        },
+        {
+            "link": "Spouse_Sim_Selection",
+            "name": "0x0A8C1B7B"
+        },
+        {
+            "link": "Other_Marriage",
+            "name": "0x3203CE67"
+        },
+        {
+            "link": "Pet_Pregnancy_Settings",
+            "name": "0x43CC44CB"
+        }
+    ],
+    "title": "0x923468DF"
+}

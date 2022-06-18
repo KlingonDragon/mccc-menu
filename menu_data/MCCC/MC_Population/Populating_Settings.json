@@ -1,0 +1,41 @@
+{
+    "items": [
+        {
+            "link": "Percent_Baby",
+            "name": "0x0881F7A0"
+        },
+        {
+            "link": "Percent_Toddler",
+            "name": "0xD4086467"
+        },
+        {
+            "link": "Percent_Child",
+            "name": "0x8CB8C82E"
+        },
+        {
+            "link": "Percent_Adult",
+            "name": "0x1C27DD2C"
+        },
+        {
+            "link": "Percent_Elder",
+            "name": "0xDCF50B40"
+        },
+        {
+            "link": "Percent_Male",
+            "name": "0x8EA0F0FB"
+        },
+        {
+            "link": "Butler_Age",
+            "name": "0x59D7EDA7"
+        },
+        {
+            "link": "Run_Dresser",
+            "name": "0x695793E0"
+        },
+        {
+            "link": "Import_Tray_Settings",
+            "name": "0xC72D3DD0"
+        }
+    ],
+    "title": "0xA9B03500"
+}
