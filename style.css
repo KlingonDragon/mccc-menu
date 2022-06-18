@@ -207,6 +207,7 @@ section#buttons.old > *:hover {
 
 /* Search */
 aside#search {
+    display:none;
     width: 100%;
     background: white;
     border-bottom: 2px solid royalblue;
