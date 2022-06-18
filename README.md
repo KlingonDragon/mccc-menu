@@ -5,6 +5,13 @@ https://mccc-menu.online/
 ## mccc-menu Repository
 This Repository contains the source code for the online MCCC Settings
 
+#### Test Offline
+Simple method:
+```
+python3 -m http.server
+```
+PHP code will not run using this method, this only affects version numbers and search.
+
 ### Directory Structure
 - /img
   > image folder

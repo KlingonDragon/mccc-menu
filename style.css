@@ -47,9 +47,8 @@ body {
 footer {
     position: sticky;
     bottom: 0;
-    width: 80%;
+    width: clamp(300px, 90vw, 900px);
     background: black;
-    box-shadow: 0 0 1em 1em black;
     color: white;
     display: flex;
     flex-flow: row nowrap;
@@ -63,6 +62,24 @@ footer > img {
     width: 2em;
     border-radius: 1em;
     margin: 0.5em;
+}
+@media (prefers-color-scheme: light) {
+    html {
+        background: silver;
+    }
+    footer {
+        background: white;
+        color: black;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    html {
+        background: black;
+    }
+    footer {
+        background: black;
+        color: white;
+    }
 }
 
 /* Content */
