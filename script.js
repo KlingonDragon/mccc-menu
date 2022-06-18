@@ -60,7 +60,7 @@ function menuRender(path) {
             if (data.default) {
                 let button = document.createElement('button');
                 button.innerHTML = `
-<img/>
+<img alt=""/>
 <div class="info">
     <div class="title">${string('default_value')}</div>
     <div class="desc">${defaultMenuOption(data.default)}</div>
@@ -69,10 +69,10 @@ function menuRender(path) {
                 $('section#buttons').appendChild(button);
             }
             data.items.forEach(item => {
-                let button = document.createElement(item.link == 'self'? 'button':'a');
-                if (item.link != 'self') { button.href = `#${`${path}/${item.link}`.split('#').pop()}`; }
+                let button = document.createElement(item.link && item.link != 'self'? 'a':'button');
+                if (item.link && item.link != 'self') { button.href = `#${`${path}/${item.link}`.split('#').pop()}`; }
                 button.innerHTML = `
-${item.img ? `<img ${icon(item.img)}/>` : data.default ? (item.name == data.default ? '<img src="img/icons/0xA3B15EEB3A5DB990.png"/>':'<img/>'): ''}
+${item.img ? `<img alt="" ${icon(item.img)}/>` : data.default ? (item.name == data.default ? '<img alt="" src="img/icons/0xA3B15EEB3A5DB990.png"/>':'<img/>'): ''}
 <div class="info">
     <div class="title">${string(item.name || item.link)}</div>
     <div class="desc">${item.desc ? string(item.desc) : menu_desc(`${path}/${item.link}`)}</div>
@@ -84,21 +84,21 @@ ${item.img ? `<img ${icon(item.img)}/>` : data.default ? (item.name == data.defa
         if (data.enabled_disabled) {
             $('section#buttons').innerHTML = `
 <button>
-    <img/>
+    <img alt=""/>
     <div class="info">
         <div class="title">${string('default_value')}</div>
         <div class="desc">${defaultMenuOption(data.default)}</div>
     </div>
 </button>
 <button>
-    <img ${data.default == 'disabled' ? icon('0xA3B15EEB3A5DB990'):''}/>
+    <img alt="" ${data.default == 'disabled' ? icon('0xA3B15EEB3A5DB990'):''}/>
     <div class="info">
         <div class="title">${string('disabled')}</div>
         <div class="desc"></div>
     </div>
 </button>
 <button>
-    <img ${data.default == 'enabled' ? icon('0xA3B15EEB3A5DB990'):''}/>
+    <img alt="" ${data.default == 'enabled' ? icon('0xA3B15EEB3A5DB990'):''}/>
     <div class="info">
         <div class="title">${string('enabled')}</div>
         <div class="desc"></div>
@@ -199,6 +199,7 @@ function versionInfo() {
 //On page load:
 onpopstate = event => menuRender(location.hash);
 window.addEventListener('DOMContentLoaded', () => {
+    $('html').lang = lang;
     $('section#back button').onclick = () => { history.back(); };
     $('section#done button').onclick = () => { history.back(); };
     menuRender(location.hash || '#MCCC');
