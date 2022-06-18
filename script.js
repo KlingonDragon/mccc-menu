@@ -26,7 +26,6 @@ const lang = ((supported_langs) => {
 
 function menuRender(path) {
     path = path.split('#').pop();
-    $('section#back').classList.toggle('hidden', path == 'MCCC');
     location.hash = path
     fetch(`/menu_data/${path}.json`).then(response => {
         if (!response.ok) { throw new Error('Network response was not OK'); }
@@ -35,9 +34,10 @@ function menuRender(path) {
         console.log(data);
         $('section#title').innerHTML = string(data.title);
         $('section#desc').innerHTML = string(data.desc) || '';
+        $('section#minmax').innerHTML = `${data.min ? `${string('min', '{0.String}', data.min)}` : ''}&ensp;${data.max ? `${string('min', '{0.String}', data.max)}` : ''}`;
         $('section#buttons').innerHTML = '';
         if (data.input) {
-            $('section#input').innerHTML = `<input type="text" value="${data.input}"/>`;
+            $('section#input').innerHTML = `<input type="text" value="${data.input}" />`;
             $('section#buttons').classList.add('old');
             $('section#buttons').innerHTML = `
 <button class="default">${string('default_value')}</button>
@@ -106,6 +106,16 @@ ${item.img ? `<img ${icon(item.img)}/>` : data.default ? (item.name == data.defa
 </button>
             `;
         }
+        if (path == 'MCCC' || data?.done) {
+            $('section#back').classList.add('hidden');
+        } else {
+            $('section#back').classList.remove('hidden');
+        }
+        if (data?.done) {
+            $('section#done').classList.remove('hidden');
+        } else {
+            $('section#done').classList.add('hidden');
+        }
         $('section#path').innerHTML = pathStrings(path);
     }).catch(error => {
         console.error(`menuRender(${path}) - Fetch Error:`, error);
@@ -119,7 +129,7 @@ function pathStrings(path) {
         let hash = next.quickHash();
         buildup += `/${next}`;
         fetch(`/menu_data/${buildup.replace('|/', '')}.json`).then(response => {
-            if (!response.ok) { throw new Error('Network response was not OK'); }
+            if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
             return response.json()
         }).then(data => {
             $(`output#path_${hash}`).outerHTML = string(data.title);
@@ -130,7 +140,7 @@ function pathStrings(path) {
 function menu_desc(path) {
     let id = path.quickHash();
     fetch(`/menu_data/${path}.json`).then(response => {
-        if (!response.ok) { throw new Error('Network response was not OK'); }
+        if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
         return response.json()
     }).then(data => {
         $(`output#desc_${id}`).outerHTML = data.desc ? string(data.desc) :'';
@@ -169,7 +179,7 @@ function string(id, replace = '', replace_with = '') {
         return stringStorage.string.replace(replace, replace_with);
     }
     fetch(`/strings/${lang}/${id}`).then(response => {
-        if (!response.ok) { throw new Error('Network response was not OK'); }
+        if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
         return response.text()
     }).then(string_text => {
         localStorage.setItem(`string-${lang}-${id}`, JSON.stringify({ string: string_text, timestamp: Date.now() }));
@@ -190,6 +200,7 @@ function versionInfo() {
 onpopstate = event => menuRender(location.hash);
 window.addEventListener('DOMContentLoaded', () => {
     $('section#back button').onclick = () => { history.back(); };
+    $('section#done button').onclick = () => { history.back(); };
     menuRender(location.hash || '#MCCC');
 });
 if ("serviceWorker" in navigator) {

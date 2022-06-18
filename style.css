@@ -67,6 +67,8 @@ footer > img {
 
 /* Content */
 main {
+    flex-shrink: 1;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -77,29 +79,47 @@ main {
     border: 2px solid royalblue;
     border-radius: 1.5em;
 }
-section#back {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    height: 32px;
-    margin-right: 1em;
-}
 section#back.hidden {
     visibility: hidden;
 }
-section#back button {
+section#done.hidden {
+    display: none;
+}
+section#back, section#done {
+    display: flex;
+    justify-content: flex-end;
+}
+section#back {
+    height: 32px;
+    align-items: flex-end;
+    margin-right: 1em;
+}
+section#done {
+    height: 4em;
+    background: darkgrey;
+    align-items: center;
+    padding-right: 4px;
+}
+section#back button, section#done button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    height: 24px;
-    width: 24px;
     border-radius: 100%;
     box-shadow: 0 0 3px 3px silver;
     font-weight: bold;
     border: none;
     color: royalblue;
 }
-section#back button:hover {
+section#back button {
+    height: 24px;
+    width: 24px;
+}
+section#done button {
+    font-size: 3em;
+    height: 1.2em;
+    width: 1.2em;
+}
+section#back button:hover, section#done button:hover {
     color: limegreen;
 }
 section#title {
@@ -115,15 +135,19 @@ section#path {
     font-size: small;
 }
 section#desc {
-    padding: 0 1em;
 	min-height: 60px;
-	text-align: left;
 }
 .desc {
 	color: dodgerblue;
+    text-align: left;
+    padding: 0 1em;
+}
+section#minmax {
+    padding-top:1em;
 }
 section#buttons {
-    flex-grow: 1;
+    flex-shrink: 1;
+    overflow-y: auto;
     padding: 0 1em;
 }
 section#buttons > * {
@@ -156,7 +180,6 @@ section#buttons .info {
 }
 section#buttons .info div {
     width: 100%;
-    text-align: left;
     overflow: hidden;
     text-overflow:ellipsis;
     display: -webkit-box !important;
@@ -165,10 +188,12 @@ section#buttons .info div {
 }
 section#buttons .info .title {
 	color: royalblue;
+    text-align: left;
     -webkit-line-clamp: 1;
     line-clamp: 1;
 }
 section#buttons .info .desc {
+    padding: 0;
     font-size: 75%;
     -webkit-line-clamp: 2;
     line-clamp: 2;
@@ -186,7 +211,6 @@ section#buttons > * > img {
 
 section#buttons.old {
     background: darkgrey;
-    border-radius: 0 0 1.5em 1.5em;
 }
 section#buttons.old > * {
     justify-content: center;
@@ -266,4 +290,27 @@ aside#search {
 /* Scrollbars (for non blink/webkit browsers (firefox)) */
 * {
 	scrollbar-color: royalblue black;
+}
+/* section#buttons Scrollbar */
+section#buttons::-webkit-scrollbar, section#buttons::-webkit-scrollbar-track-piece, section#buttons::-webkit-scrollbar-track, section#buttons::-webkit-scrollbar-corner, ::-webkit-resizer {
+	background: white;
+}
+section#buttons::-webkit-scrollbar, section#buttons::-webkit-scrollbar-track, section#buttons::-webkit-scrollbar-track-piece, section#buttons::-webkit-scrollbar-thumb {
+	width: 32px;
+	height: 32px;
+	border: 8px solid transparent;
+}
+section#buttons::-webkit-scrollbar, section#buttons::-webkit-scrollbar-track-piece {
+	box-shadow: inset 0 0 1px 1px silver, inset 0 0 0 16px lightgrey;
+}
+section#buttons::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 1px 1px silver, inset 0 0 0 16px white;
+    cursor: grab;
+}
+section#buttons::-webkit-scrollbar-thumb:hover {
+	box-shadow: inset 0 0 1px 1px silver, inset 0 0 0 16px limegreen;
+}
+/* section#buttons Scrollbar (for non blink/webkit browsers (firefox)) */
+section#buttons {
+	scrollbar-color: white lightgrey;
 }

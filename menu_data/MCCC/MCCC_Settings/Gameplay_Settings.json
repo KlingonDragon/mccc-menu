@@ -2,12 +2,40 @@
     "title": "0x65C3DC40",
     "items": [
         {
-            "link": "Pause_on_zone",
-            "name": "0x2D6D8F8A"
+            "link": "Adopt_Neglected_Child",
+            "name": "0x2F1CB910"
+        },
+        {
+            "link": "Bypass_Skill_List",
+            "name": "0x3BA1CE4C"
+        },
+        {
+            "link": "Character_Values_Difficulty_Adjustment",
+            "name": "0x72520A2C"
+        },
+        {
+            "link": "Fame_Difficulty_Adjustment",
+            "name": "0x77CB2C7C"
         },
         {
             "link": "Game_Time_Speed",
             "name": "0x1FBC780F"
+        },
+        {
+            "link": "Maximum_Household_Size",
+            "name": "0x920B158D"
+        },
+        {
+            "link": "Maximum_Rename_Length",
+            "name": "0x1BC01433"
+        },
+        {
+            "link": "Motive_Decay",
+            "name": "0xBDEA781D"
+        },
+        {
+            "link": "Pause_on_zone",
+            "name": "0x2D6D8F8A"
         },
         {
             "link": "Sims_Die_On_Lot",
@@ -18,16 +46,16 @@
             "name": "0xBCC1FE04"
         },
         {
-            "link": "Adopt_Neglected_Child",
-            "name": "0x2F1CB910"
+            "link": "Skill_Difficulty_Exclude_List",
+            "name": "0x5C16F63C"
         },
         {
-            "link": "Maximum_Household_Size",
-            "name": "0x920B158D"
+            "link": "Skill_Difficulty_Include_List",
+            "name": "0x02529031"
         },
         {
-            "link": "Motive_Decay",
-            "name": "0xBDEA781D"
+            "link": "Skill_Freeze_Progression_List",
+            "name": "0x5B242042"
         },
         {
             "link": "Teleport_Sim_Overlap",
@@ -36,10 +64,6 @@
         {
             "link": "Use_Random_Aging",
             "name": "0x40EFC103"
-        },
-        {
-            "link": "Maximum_Rename_Length",
-            "name": "0x1BC01433"
         }
     ]
 }
