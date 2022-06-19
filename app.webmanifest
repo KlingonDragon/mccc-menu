@@ -12,6 +12,10 @@
             "src": "img/icons/0x691B98A2C232CDE5.png",
             "sizes": "50x50",
             "type": "image/png"
+        },
+        {
+            "src": "img/favicon.svg",
+            "sizes": "any"
         }
     ]
 }
