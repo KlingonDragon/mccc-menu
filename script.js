@@ -7,7 +7,7 @@ String.prototype.quickHash = function() {
     let hash = 0;
     if (this.length == 0) { return hash; }
     for (i = 0; i < this.length; i++) {
-        char = string[i];
+        char = this.charCodeAt(i);
         hash = ((hash << 5) - hash) + char;
         hash = hash & hash;
     }
@@ -38,18 +38,25 @@ function menuRender(path) {
         return response.json()
     }).then(data => {
         // console.log(data);
-        $('title').innerText = `MCCC Menu Online | ${string(data.title)}`;
-        $('section#title').innerHTML = string(data.title);
-        $('section#desc').innerHTML = string(data.desc) || '';
-        $('section#minmax').innerHTML = `${data.min ? `${string('min', '{0.String}', data.min)}` : ''}&ensp;${data.max ? `${string('min', '{0.String}', data.max)}` : ''}`;
+        $('title').innerText = `MCCC Menu Online | ${((id) => {
+            if (!id) { return ':('; }
+            let stringStorage = localStorage.getItem(`string-${lang}-${id}`);
+            if ((stringStorage = JSON.parse(stringStorage)) && (stringStorage.timestamp > Date.now() - (2 * 24 * 60 * 60 *1000))) {
+                return stringStorage.string;
+            }
+            return id;
+        })(data.title)}`;
+        $('section#title').innerHTML = `<get-string>${data.title}</get-string>`;
+        $('section#desc').innerHTML = data.desc ? (data.desc == 'mccc_desc' ? versionInfo():`<get-string>${data.desc}</get-string>`):'';
+        $('section#minmax').innerHTML = `${data.min ? `<get-string replace-what="{0.String}" replace-with="${data.min}">min</get-string>` : ''}&ensp;${data.max ? `<get-string replace-what="{0.String}" replace-with="${data.max}">max</get-string>` : ''}`;
         $('section#buttons').innerHTML = '';
         if (data.input) {
             $('section#input').innerHTML = `<input type="text" value="${data.input}" />`;
             $('section#buttons').classList.add('old');
             $('section#buttons').innerHTML = `
-<button class="default">${string('default_value')}</button>
-<button class="back">${string('back')}</button>
-<button class="back">${string('ok')}</button>
+<button class="default"><get-string>${'default_value'}</get-string></button>
+<button class="back"><get-string>${'back'}</get-string></button>
+<button class="back"><get-string>${'ok'}</get-string></button>
             `;
             $$('section#buttons .back').forEach((button => {
                 button.onclick = upLevel;
@@ -69,7 +76,7 @@ function menuRender(path) {
                 button.innerHTML = `
 <img alt=""/>
 <div class="info">
-    <div class="title">${string('default_value')}</div>
+    <div class="title"><get-string>${'default_value'}</get-string></div>
     <div class="desc">${defaultMenuOption(data.default)}</div>
 </div>
                 `;
@@ -81,8 +88,8 @@ function menuRender(path) {
                 button.innerHTML = `
 ${item.img ? `<img alt="" ${icon(item.img)}/>` : data.default ? (item.name == data.default ? '<img alt="" src="img/icons/0xA3B15EEB3A5DB990.png"/>':'<img/>'): ''}
 <div class="info">
-    <div class="title">${string(item.name || item.link)}</div>
-    <div class="desc">${item.desc ? string(item.desc) : menu_desc(`${path}/${item.link}`)}</div>
+    <div class="title"><get-string>${item.name || item.link}</get-string></div>
+    <div class="desc">${item.desc ? `<get-string>${item.desc}</get-string>` : menu_desc(`${path}/${item.link}`)}</div>
 </div>
                 `;
                 $('section#buttons').appendChild(button);
@@ -93,21 +100,21 @@ ${item.img ? `<img alt="" ${icon(item.img)}/>` : data.default ? (item.name == da
 <button>
     <img alt=""/>
     <div class="info">
-        <div class="title">${string('default_value')}</div>
+        <div class="title"><get-string>${'default_value'}</get-string></div>
         <div class="desc">${defaultMenuOption(data.default)}</div>
     </div>
 </button>
 <button>
     <img alt="" ${data.default == 'disabled' ? icon('0xA3B15EEB3A5DB990'):''}/>
     <div class="info">
-        <div class="title">${string('disabled')}</div>
+        <div class="title"><get-string>disabled</get-string></div>
         <div class="desc"></div>
     </div>
 </button>
 <button>
     <img alt="" ${data.default == 'enabled' ? icon('0xA3B15EEB3A5DB990'):''}/>
     <div class="info">
-        <div class="title">${string('enabled')}</div>
+        <div class="title"><get-string>enabled</get-string></div>
         <div class="desc"></div>
     </div>
 </button>
@@ -139,7 +146,7 @@ function pathStrings(path) {
             if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
             return response.json()
         }).then(data => {
-            $$(`output.path_${hash}`).forEach(output=>output.outerHTML = string(data.title));
+            $$(`output.path_${hash}`).forEach(output=>output.outerHTML = `<get-string>${data.title}</get-string>`);
         });
         return `${old} &gt; <output class="path_${hash}">${decodeURI(next)}</output>`;
     }, '|').replace('| &gt; ', '');
@@ -150,7 +157,7 @@ function menu_desc(path) {
         if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
         return response.json()
     }).then(data => {
-        $$(`output.desc_${id}`).forEach(output=>output.outerHTML = data.desc ? string(data.desc) :'');
+        $$(`output.desc_${id}`).forEach(output=>output.outerHTML = data.desc ? `<get-string>${data.desc}</get-string>` :'');
     }).catch(error => {
         console.error(`menu_desc(${path}) - Fetch Error:`, error)
     });
@@ -158,9 +165,9 @@ function menu_desc(path) {
 }
 function defaultMenuOption(default_value) {
     if (Array.isArray(default_value)) {
-        return default_value.reduce(old, next => `${old}, ${string(next)}`, '|').replace('|, ', '');
+        return default_value.reduce(old, next => `${old}, <get-string>${next}</get-string>`, '|').replace('|, ', '');
     }
-    return string('set_default_value', '{0.String}', string(default_value))
+    return `<get-string replace-what="{0.String}" replace-with="${default_value}">set_default_value</get-string>`
 }
 function icon(id) {
     return `src="/img/icons/${id.toUpperCase().replace(/^0X/, '0x')}.png"`;
@@ -178,24 +185,6 @@ function search(searchtext) {
     }
     searchXHR.send();
 }
-function string(id, replace = '', replace_with = '') {
-    if (!id) { return false; }
-    if (id == 'mccc_desc') { return versionInfo(); }
-    let stringStorage = localStorage.getItem(`string-${lang}-${id}`);
-    if ((stringStorage = JSON.parse(stringStorage)) && (stringStorage.timestamp > Date.now() - (2 * 24 * 60 * 60 *1000))) {
-        return stringStorage.string.replace(replace, replace_with);
-    }
-    fetch(`/strings/${lang}/${id}`).then(response => {
-        if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
-        return response.text()
-    }).then(string_text => {
-        localStorage.setItem(`string-${lang}-${id}`, JSON.stringify({ string: string_text, timestamp: Date.now() }));
-        $$(`output.string_${id}`).forEach(output=>output.outerHTML = string_text.replace(replace, replace_with));
-    }).catch(error => {
-        console.error(`string(${id}) - Fetch Error:`, error)
-    });
-    return `<output id="string_${id}">${id}</output>`;
-}
 function versionInfo() {
     fetch('/version.php').then(response => response.json()).then(data => {
         $(`output#version_mccc`).outerHTML = data.mccc;
@@ -203,11 +192,69 @@ function versionInfo() {
     }).catch(error => {
         console.error(`versionInfo() - Fetch Error:`, error)
     });
-    return `${string('mccc_version')} <output id="version_mccc"></output><br/>${string('sims_version')} <output id="version_sims"></output><br/>`
+    return `<get-string>mccc_version</get-string> <output id="version_mccc"></output><br/><get-string>sims_version</get-string> <output id="version_sims"></output><br/>`
 }
 //On page load:
 onpopstate = event => menuRender(location.hash);
 window.addEventListener('DOMContentLoaded', () => {
+    customElements.define('get-string', class extends HTMLElement {
+        static get observedAttributes() { return ['is-text']; }
+        get isText() {
+            return this.hasAttribute('is-text');
+        }
+        set isText(value) {
+            if (value) {
+                this.setAttribute('is-text', '');
+            } else {
+                this.removeAttribute('is-text');
+            }
+        }
+        get replaceWhat() {
+            return this.getAttribute('replace-what');
+        }
+        set replaceWhat(value) {
+            return this.setAttribute('replace-what', value);
+        }
+        get replaceWith() {
+            return this.getAttribute('replace-with');
+        }
+        set replaceWith(value) {
+            return this.getAttribute('replace-with', value);
+        }
+        constructor() {
+            // Always call super first in constructor
+            super();
+        }
+        connectedCallback() {
+            if (!this.isText) {
+                this.getString();
+            }
+        }
+        adoptedCallback() {
+            if (!this.isText) {
+                this.getString();
+            }
+        }
+        getString() {
+            let id = this.textContent,
+                stringStorage = localStorage.getItem(`string-${lang}-${id}`);
+            if ((stringStorage = JSON.parse(stringStorage)) && (stringStorage.timestamp > Date.now() - (2 * 24 * 60 * 60 *1000))) {
+                this.textContent = stringStorage.string.replace(this.replaceWhat, this.replaceWith);
+                this.isText = true;
+                return;
+            }
+            fetch(`/strings/${lang}/${id}`).then(response => {
+                if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
+                return response.text()
+            }).then(string_text => {
+                localStorage.setItem(`string-${lang}-${id}`, JSON.stringify({ string: string_text, timestamp: Date.now() }));
+                this.textContent = string_text.replace(this.replaceWhat, this.replaceWith);
+                this.isText = true;
+            }).catch(error => {
+                console.error(`get-string - ${lang}/${id} - Fetch Error:`, error)
+            });
+        }
+    });
     $('html').lang = lang;
     $('section#back button').onclick = upLevel;
     $('section#done button').onclick = upLevel;
