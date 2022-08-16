@@ -21,7 +21,6 @@ PHP code will not run using this method, this only affects version numbers and s
   > contains json files with menu page configurations 
 - /strings
   > string files for each supported language in own folder
-  - /cn
   - /cs
   - /da
   - /de
@@ -36,6 +35,8 @@ PHP code will not run using this method, this only affects version numbers and s
   - /pt
   - /ru
   - /se
+  - /zh-CN
+  - /zh-TW
 
 - app.webmanifest
   > json file with PWA details

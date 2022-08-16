@@ -1,0 +1,1 @@
+If this setting is enabled, MC Pregnancy will not run random pregnancy generation for NPC's.  It will still limit Neighborhood Stories pregnancy generation with the MC Pregnancy settings.  This will result in many less pregnancies happening.  Neighborhood Stories do not check for pregnancies very often, and when they do, they will be limited further by the MC Pregnancy settings.

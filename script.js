@@ -15,14 +15,20 @@ String.prototype.quickHash = function() {
 }
 
 const lang = ((supported_langs) => {
-    for (let lang of navigator.languages) {
-        lang = lang.substring(0, 2);
-        if (supported_langs.indexOf(lang) != -1) {
-            return lang;
+    console.log(supported_langs, navigator.languages);
+    for (let user_lang of navigator.languages) {
+        for (let site_lang of supported_langs) {
+            console.log(user_lang.indexOf(site_lang));
+            if (user_lang.indexOf(site_lang) != -1) {
+                if (user_lang == 'zh' || user_lang == 'zh-HK') { return 'zh-CN'; }
+                console.log(site_lang, user_lang);
+                return site_lang;
+            }
         }
     }
     return 'en';
-})(['cn','cs','da','de','en','es','fr','it','ja','ko','nl','pl','pt','ru','se'])
+})(['cs','da','de','en','es','fr','it','ja','ko','nl','pl','pt','ru','se','zh-CN','zh-TW', 'zh'])
+console.log(lang);
 
 function upLevel() {
     path = location.hash.split('/');
@@ -48,15 +54,15 @@ function menuRender(path) {
         })(data.title)}`;
         $('section#title').innerHTML = `<get-string>${data.title}</get-string>`;
         $('section#desc').innerHTML = data.desc ? (data.desc == 'mccc_desc' ? versionInfo():`<get-string>${data.desc}</get-string>`):'';
-        $('section#minmax').innerHTML = `${data.min ? `<get-string replace-what="{0.String}" replace-with="${data.min}">min</get-string>` : ''}&ensp;${data.max ? `<get-string replace-what="{0.String}" replace-with="${data.max}">max</get-string>` : ''}`;
+        $('section#minmax').innerHTML = `${data.min ? `<get-string replace-what="{0.String}" replace-with="${data.min}">0xDE0BE05D</get-string>` : ''}&ensp;${data.max ? `<get-string replace-what="{0.String}" replace-with="${data.max}">0xDE0BE05D</get-string>` : ''}`;
         $('section#buttons').innerHTML = '';
         if (data.input) {
             $('section#input').innerHTML = `<input type="text" value="${data.input}" />`;
             $('section#buttons').classList.add('old');
             $('section#buttons').innerHTML = `
-<button class="default"><get-string>${'default_value'}</get-string></button>
-<button class="back"><get-string>${'back'}</get-string></button>
-<button class="back"><get-string>${'ok'}</get-string></button>
+<button class="default"><get-string>0x71C6E31F</get-string></button>
+<button class="back"><get-string>back</get-string></button>
+<button class="back"><get-string>ok</get-string></button>
             `;
             $$('section#buttons .back').forEach((button => {
                 button.onclick = upLevel;
@@ -76,7 +82,7 @@ function menuRender(path) {
                 button.innerHTML = `
 <img alt=""/>
 <div class="info">
-    <div class="title"><get-string>${'default_value'}</get-string></div>
+    <div class="title"><get-string>0x71C6E31F</get-string></div>
     <div class="desc">${defaultMenuOption(data.default)}</div>
 </div>
                 `;
@@ -100,7 +106,7 @@ ${item.img ? `<img alt="" ${icon(item.img)}/>` : data.default ? (item.name == da
 <button>
     <img alt=""/>
     <div class="info">
-        <div class="title"><get-string>${'default_value'}</get-string></div>
+        <div class="title"><get-string>0x71C6E31F</get-string></div>
         <div class="desc">${defaultMenuOption(data.default)}</div>
     </div>
 </button>
@@ -167,7 +173,7 @@ function defaultMenuOption(default_value) {
     if (Array.isArray(default_value)) {
         return default_value.reduce(old, next => `${old}, <get-string>${next}</get-string>`, '|').replace('|, ', '');
     }
-    return `<get-string replace-what="{0.String}" replace-with="${default_value}">set_default_value</get-string>`
+    return `<get-string replace-what="{0.String}" replace-with-string="${default_value}">set_default_value</get-string>`
 }
 function icon(id) {
     return `src="/img/icons/${id.toUpperCase().replace(/^0X/, '0x')}.png"`;
@@ -197,6 +203,7 @@ function versionInfo() {
 //On page load:
 onpopstate = event => menuRender(location.hash);
 window.addEventListener('DOMContentLoaded', () => {
+    //define <get-string> element that will replace the id with a string for the correct language (falls back to english if not found)
     customElements.define('get-string', class extends HTMLElement {
         static get observedAttributes() { return ['is-text']; }
         get isText() {
@@ -221,37 +228,51 @@ window.addEventListener('DOMContentLoaded', () => {
         set replaceWith(value) {
             return this.getAttribute('replace-with', value);
         }
+        get replaceWithString() {
+            return this.getAttribute('replace-with-string');
+        }
+        set replaceWithString(value) {
+            return this.getAttribute('replace-with-string', value);
+        }
         constructor() {
             // Always call super first in constructor
             super();
         }
         connectedCallback() {
-            if (!this.isText) {
-                this.getString();
-            }
+            this.getString(lang);
+            this.onclick = () => { this.getString(lang) }
         }
         adoptedCallback() {
-            if (!this.isText) {
-                this.getString();
-            }
+            this.getString(lang);
         }
-        getString() {
+        getString(language) {
+            if (this.isText) { return; }
             let id = this.textContent,
-                stringStorage = localStorage.getItem(`string-${lang}-${id}`);
+                stringStorage = localStorage.getItem(`string-${language}-${id}`);
             if ((stringStorage = JSON.parse(stringStorage)) && (stringStorage.timestamp > Date.now() - (2 * 24 * 60 * 60 *1000))) {
-                this.textContent = stringStorage.string.replace(this.replaceWhat, this.replaceWith);
+                if (this.replaceWithString) {
+                    this.textContent = stringStorage.string.replace(this.replaceWhat, `|${this.replaceWhat}|`);
+                    this.innerHTML = this.innerHTML.replace(`|${this.replaceWhat}|`,`<get-string>${this.replaceWithString}</get-string>`);
+                } else if (this.replaceWith) {
+                    this.textContent = stringStorage.string.replace(this.replaceWhat, this.replaceWith);
+                } else {
+                    this.textContent = stringStorage.string;
+                }
                 this.isText = true;
                 return;
             }
-            fetch(`/strings/${lang}/${id}`).then(response => {
-                if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
+            fetch(`/strings/${language}/${id}`).then(response => {
+                if (!response.ok) {
+                    if (response.status == 404 && language != 'en') { this.getString('en'); }
+                    throw `${response.status} - ${response.statusText}`;
+                }
                 return response.text()
             }).then(string_text => {
-                localStorage.setItem(`string-${lang}-${id}`, JSON.stringify({ string: string_text, timestamp: Date.now() }));
+                localStorage.setItem(`string-${language}-${id}`, JSON.stringify({ string: string_text, timestamp: Date.now() }));
                 this.textContent = string_text.replace(this.replaceWhat, this.replaceWith);
                 this.isText = true;
             }).catch(error => {
-                console.error(`get-string - ${lang}/${id} - Fetch Error:`, error)
+                console.error(`get-string - ${language}/${id} - Fetch Error:`, error);
             });
         }
     });

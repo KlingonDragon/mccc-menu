@@ -1,1 +1,1 @@
-When a child Sim ages-up to Teen, if either parent have values defined in this Custom Definition then they will automatically be copied to the child based on this percentage.  100 = always use parent parts, 0 = never use parent parts.
+Hvis en af forældrene har værdier defineret i denne brugerdefinerede definition, når en børnesim bliver teenager, vil de automatisk blive kopieret til barnet baseret på denne procentdel. 100 = brug altid overordnede dele, 0 = brug aldrig overordnede dele.

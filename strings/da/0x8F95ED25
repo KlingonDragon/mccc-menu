@@ -1,1 +1,1 @@
-Defines a category which limits which body types from CAS will be allowed in this Custom Definition.  Each category matches a type in CAS, like Skin Details, but may have multiple body types like Freckles, Forehead Crease, etc.
+Definerer en kategori, der begrænser, hvilke kropstyper fra LES, der er tilladt i denne brugerdefinerede definition. Hver kategori matcher en type i LES, f.eks. Huddetaljer, men kan have flere kropstyper, f.eks. fregner, pandefold osv.
