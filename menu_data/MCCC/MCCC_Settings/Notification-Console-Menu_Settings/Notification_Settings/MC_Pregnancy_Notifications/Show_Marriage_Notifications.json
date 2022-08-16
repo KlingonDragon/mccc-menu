@@ -1,44 +1,35 @@
 {
     "title": "0x87EE6E44",
-    "all_desc": "0x82899AD4",
-    "desc": {
-        "default": "0x2E1A9DE0",
-        "2": "0x00891532",
-        "3": "0x1CBE7DA5",
-        "4": "0x65558642",
-        "5": "0x7CE1FBF7",
-        "6": "0x3BB4284E",
-        "7": "0xE855037E"
-    },
-    "default": "none",
+    "desc": "0x82899AD4",
+    "default": "0xD9B190DC",
     "items": [
         {
-            "link": "self",
-            "name": "none"
+            "name": "0xD9B190DC",
+            "desc": "0x2E1A9DE0"
         },
         {
-            "link": "self&desc=2",
-            "name": "only_npc"
+            "name": "0x901021B2",
+            "desc": "0x00891532"
         },
         {
-            "link": "self&desc=3",
-            "name": "only_played"
+            "name": "0x743241C0",
+            "desc": "0x1CBE7DA5"
         },
         {
-            "link": "self&desc=4",
-            "name": "related"
+            "name": "0x6F099AFC",
+            "desc": "0x65558642"
         },
         {
-            "link": "self&desc=5",
-            "name": "only_friends"
+            "name": "0x629FF6BC",
+            "desc": "0x7CE1FBF7"
         },
         {
-            "link": "self&desc=6",
-            "name": "only_romance"
+            "name": "0xB32ADE98",
+            "desc": "0x3BB4284E"
         },
         {
-            "link": "self&desc=7",
-            "name": "all"
+            "name": "all",
+            "desc": "0xE855037E"
         }
     ]
 }

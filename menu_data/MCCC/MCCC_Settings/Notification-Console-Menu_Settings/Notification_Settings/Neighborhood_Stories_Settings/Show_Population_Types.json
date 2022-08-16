@@ -1,6 +1,6 @@
 {
-    "title": "0xEB5FFCEB",
-    "desc": "0xD2D51BEE",
+    "title": "0x26F23246",
+    "desc": "0x2BDB7744",
     "default": "0xD9B190DC",
     "items": [
         {
@@ -16,8 +16,16 @@
             "desc": "0x1CBE7DA5"
         },
         {
-            "name": "0x743241C0",
-            "desc": "0x1CBE7DA5"
+            "name": "0x6F099AFC",
+            "desc": "0x65558642"
+        },
+        {
+            "name": "0x629FF6BC",
+            "desc": "0x7CE1FBF7"
+        },
+        {
+            "name": "0xB32ADE98",
+            "desc": "0x3BB4284E"
         },
         {
             "name": "all",

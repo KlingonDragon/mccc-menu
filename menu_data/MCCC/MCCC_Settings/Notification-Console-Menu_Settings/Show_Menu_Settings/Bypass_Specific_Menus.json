@@ -1,51 +1,40 @@
 {
     "title": "0x8440844F",
     "desc": "0x29B1449A",
-    "default": "none",
     "items": [
         {
-            "link": "self",
             "name": "relationships"
         },
         {
-            "link": "self",
             "name": "0xDAD0806C"
         },
         {
-            "link": "self",
             "name": "0xE418BF6D"
         },
         {
-            "link": "self",
             "name": "modify_CAS"
         },
         {
-            "link": "self",
             "name": "0xC0B3CF8C"
         },
         {
-            "link": "self",
             "name": "0x3E440449"
         },
         {
-            "link": "self",
             "name": "0x9F3AFD77"
         },
         {
-            "link": "self",
             "name": "0xE8517BB7"
         },
         {
-            "link": "self",
             "name": "0xAEE08715"
         },
         {
-            "link": "self",
             "name": "0x923468DF"
         },
         {
-            "link": "self",
             "name": "0xA5200215"
         }
-    ]
+    ],
+    "done": true
 }

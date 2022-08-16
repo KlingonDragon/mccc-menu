@@ -2,6 +2,14 @@
     "title": "0xC68B68C0",
     "items": [
         {
+            "link": "Allow_Teen_Parenting",
+            "name": "0x34FEDA1E"
+        },
+        {
+            "link": "Auto-Relationship_Settings",
+            "name": "0xC68A8582"
+        },
+        {
             "link": "Friendship_Decay_Percentage",
             "name": "0x3003E9F5"
         },
@@ -10,24 +18,16 @@
             "name": "0xD7AA9DE0"
         },
         {
+            "link": "Relationship_Culling",
+            "name": "0x7E507C05"
+        },
+        {
             "link": "Romantic_Decay_Percentage",
             "name": "0x10036CD0"
         },
         {
             "link": "Romance_Difficulty_Adjustment",
             "name": "0x2715FB5B"
-        },
-        {
-            "link": "Relationship_Culling",
-            "name": "0x7E507C05"
-        },
-        {
-            "link": "Allow_Teen_Parenting",
-            "name": "0x34FEDA1E"
-        },
-        {
-            "link": "Breakup_Settings",
-            "name": "0x53174630"
         }
     ]
 }

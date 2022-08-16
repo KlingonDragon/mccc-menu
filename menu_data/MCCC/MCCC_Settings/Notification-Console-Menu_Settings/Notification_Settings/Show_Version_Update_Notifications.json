@@ -1,19 +1,19 @@
 {
     "title": "0x9FE1BCE1",
-    "desc": "0x5CBE657F",
-    "default": "none",
+    "desc": "0xF801B7D7",
+    "default": "0xD9B190DC",
     "items": [
         {
-            "link": "self",
-            "name": "none"
+            "name": "0x0BFC065B",
+            "desc": "0x67AFD2C8"
         },
         {
-            "link": "self",
-            "name": "0x5C2348FB"
+            "name": "0xD9B190DC",
+            "desc": "0x99FB2362"
         },
         {
-            "link": "self",
-            "name": "0x0BFC065B"
+            "name": "0x5C2348FB",
+            "desc": "0x836CBEB1"
         }
     ]
 }

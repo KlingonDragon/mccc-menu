@@ -4,20 +4,20 @@
     "default": "none",
     "items": [
         {
-            "link": "self",
-            "name": "all"
+            "name": "all",
+            "desc": "0xE5269E1E"
         },
         {
-            "link": "self",
-            "name": "only_married"
+            "name": "0xDF3FB997",
+            "desc": "0x080A1B0E"
         },
         {
-            "link": "self",
-            "name": "only_unmarried"
+            "name": "0xD9B190DC",
+            "desc": "0x50248259"
         },
         {
-            "link": "self",
-            "name": "none"
+            "name": "0x07D02DF0",
+            "desc": "0x52C9AA29"
         }
     ]
 }

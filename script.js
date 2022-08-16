@@ -15,20 +15,16 @@ String.prototype.quickHash = function() {
 }
 
 const lang = ((supported_langs) => {
-    console.log(supported_langs, navigator.languages);
     for (let user_lang of navigator.languages) {
         for (let site_lang of supported_langs) {
-            console.log(user_lang.indexOf(site_lang));
             if (user_lang.indexOf(site_lang) != -1) {
                 if (user_lang == 'zh' || user_lang == 'zh-HK') { return 'zh-CN'; }
-                console.log(site_lang, user_lang);
                 return site_lang;
             }
         }
     }
     return 'en';
 })(['cs','da','de','en','es','fr','it','ja','ko','nl','pl','pt','ru','se','zh-CN','zh-TW', 'zh'])
-console.log(lang);
 
 function upLevel() {
     path = location.hash.split('/');
@@ -40,7 +36,10 @@ function menuRender(path) {
     path = path.split('#').pop();
     location.hash = path
     fetch(`/menu_data/${path}.json`).then(response => {
-        if (!response.ok) { throw new Error('Network response was not OK'); }
+        if (!response.ok) {
+            if (response.status == 404) {throw 'Menu Data Not found\n\nThis Tool may need updating for recent updates to MCCC. Please try again later.'}
+            throw `${response.status} - ${response.statusText}`;
+        }
         return response.json()
     }).then(data => {
         // console.log(data);
@@ -54,7 +53,7 @@ function menuRender(path) {
         })(data.title)}`;
         $('section#title').innerHTML = `<get-string>${data.title}</get-string>`;
         $('section#desc').innerHTML = data.desc ? (data.desc == 'mccc_desc' ? versionInfo():`<get-string>${data.desc}</get-string>`):'';
-        $('section#minmax').innerHTML = `${data.min ? `<get-string replace-what="{0.String}" replace-with="${data.min}">0xDE0BE05D</get-string>` : ''}&ensp;${data.max ? `<get-string replace-what="{0.String}" replace-with="${data.max}">0xDE0BE05D</get-string>` : ''}`;
+        $('section#minmax').innerHTML = `${data.min ? `<get-string replace-what="{0.String}" replace-with="${data.min}">0xDE0BE05D</get-string>` : ''}&ensp;${data.max ? `<get-string replace-what="{0.String}" replace-with="${data.max}">0x152D68FF</get-string>` : ''}`;
         $('section#buttons').innerHTML = '';
         if (data.input) {
             $('section#input').innerHTML = `<input type="text" value="${data.input}" />`;
@@ -88,11 +87,12 @@ function menuRender(path) {
                 `;
                 $('section#buttons').appendChild(button);
             }
+            let useIcon = data.default || data.items.reduce((useIcons, item) => useIcons || item.img, false);
             data.items.forEach(item => {
                 let button = document.createElement(item.link && item.link != 'self'? 'a':'button');
                 if (item.link && item.link != 'self') { button.href = `#${`${path}/${item.link}`.split('#').pop()}`; }
                 button.innerHTML = `
-${item.img ? `<img alt="" ${icon(item.img)}/>` : data.default ? (item.name == data.default ? '<img alt="" src="img/icons/0xA3B15EEB3A5DB990.png"/>':'<img/>'): ''}
+${useIcon ? `<img alt="" ${item.img ? icon(item.img):(data.default && item.name == data.default ? '<img alt="" src="img/icons/0xA3B15EEB3A5DB990.png"':'')}/>`:''}
 <div class="info">
     <div class="title"><get-string>${item.name || item.link}</get-string></div>
     <div class="desc">${item.desc ? `<get-string>${item.desc}</get-string>` : menu_desc(`${path}/${item.link}`)}</div>
@@ -149,7 +149,7 @@ function pathStrings(path) {
         let hash = next.quickHash();
         buildup += `/${next}`;
         fetch(`/menu_data/${buildup.replace('|/', '')}.json`).then(response => {
-            if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
+            if (!response.ok) { throw `${response.status} - ${response.statusText}`; }
             return response.json()
         }).then(data => {
             $$(`output.path_${hash}`).forEach(output=>output.outerHTML = `<get-string>${data.title}</get-string>`);
@@ -160,7 +160,7 @@ function pathStrings(path) {
 function menu_desc(path) {
     let id = path.quickHash();
     fetch(`/menu_data/${path}.json`).then(response => {
-        if (!response.ok) { throw new Error(`${response.status} - ${response.statusText}`); }
+        if (!response.ok) { throw `${response.status} - ${response.statusText}`; }
         return response.json()
     }).then(data => {
         $$(`output.desc_${id}`).forEach(output=>output.outerHTML = data.desc ? `<get-string>${data.desc}</get-string>` :'');
@@ -266,8 +266,9 @@ window.addEventListener('DOMContentLoaded', () => {
                     if (response.status == 404 && language != 'en') { this.getString('en'); }
                     throw `${response.status} - ${response.statusText}`;
                 }
-                return response.text()
+                return response.text();
             }).then(string_text => {
+                string_text = string_text.replace(/\&quot\;/gim, '"');
                 localStorage.setItem(`string-${language}-${id}`, JSON.stringify({ string: string_text, timestamp: Date.now() }));
                 this.textContent = string_text.replace(this.replaceWhat, this.replaceWith);
                 this.isText = true;

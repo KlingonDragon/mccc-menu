@@ -6,20 +6,24 @@
             "name": "0xEAE5053B"
         },
         {
-            "link": "Sim_Motive_Decay_Percent",
-            "name": "0xDD329BD0"
-        },
-        {
-            "link": "Vampire_Motive_Decay_Percent",
-            "name": "0xD21A670E"
-        },
-        {
             "link": "Cat_Motive_Decay_Percent",
             "name": "0x3308EC9C"
         },
         {
             "link": "Dog_Motive_Decay_Percent",
             "name": "0xF69B2BBA"
+        },
+        {
+            "link": "Fame_Decay_Percent",
+            "name": "0xF5865479"
+        },
+        {
+            "link": "Sim_Motive_Decay_Percent",
+            "name": "0xDD329BD0"
+        },
+        {
+            "link": "Vampire_Motive_Decay_Percent",
+            "name": "0xD21A670E"
         }
     ]
 }

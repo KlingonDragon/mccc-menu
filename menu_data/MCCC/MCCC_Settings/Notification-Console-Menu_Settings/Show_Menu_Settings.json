@@ -2,24 +2,29 @@
     "title": "0x272800C9",
     "items": [
         {
-            "link": "Show_Computer_Menu",
-            "name": "0x8EC70E88"
-        },
-        {
-            "link": "Show_Sim_Menu",
-            "name": "0xF73E588E"
-        },
-        {
             "link": "Bypass_Specific_Menus",
-            "name": "0x8440844F"
+            "name": "0x8440844F",
+            "img": ""
         },
         {
             "link": "Show_Cheats_Menu",
-            "name": "0xA3D100ED"
+            "name": "0xA3D100ED",
+            "img": "0x8E1B8F9070965325"
+        },
+        {
+            "link": "Show_Computer_Menu",
+            "name": "0x8EC70E88",
+            "img": "0x972F92B7AD30902D"
         },
         {
             "link": "Show_Gnome_Menu_Type",
-            "name": "0xF46E1A93"
+            "name": "0xF46E1A93",
+            "img": ""
+        },
+        {
+            "link": "Show_Sim_Menu",
+            "name": "0xF73E588E",
+            "img": ""
         }
     ]
 }

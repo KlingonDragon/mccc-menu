@@ -4,28 +4,28 @@
     "default": "none",
     "items": [
         {
-            "link": "self",
-            "name": "none"
+            "name": "0x3C1304DF",
+            "desc": "0x6FA65050"
         },
         {
-            "link": "self",
-            "name": "only_npc"
+            "name": "all",
+            "desc": "0xDAA0C6A2"
         },
         {
-            "link": "self",
-            "name": "only_played"
+            "name": "0x901021B2",
+            "desc": "0x6E3F76CF"
         },
         {
-            "link": "self",
-            "name": "only_played-npc"
+            "name": "0xD9B190DC",
+            "desc": "0x96E676D1"
         },
         {
-            "link": "self",
-            "name": "only_active"
+            "name": "0x743241C0",
+            "desc": "0x7B7CCEF9"
         },
         {
-            "link": "self",
-            "name": "all"
+            "name": "0xAE907FAE",
+            "desc": "0x6FA65050"
         }
     ]
 }

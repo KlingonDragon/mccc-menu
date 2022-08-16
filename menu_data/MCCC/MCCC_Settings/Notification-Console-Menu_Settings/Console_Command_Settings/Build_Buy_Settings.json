@@ -6,20 +6,20 @@
             "name": "0x3CF83C9B"
         },
         {
-            "link": "Show_Live_Enabled",
-            "name": "0xA083F4BF"
-        },
-        {
-            "link": "Move_Objects_Enabled",
-            "name": "0xF651F06F"
-        },
-        {
             "link": "Free_Build_Enabled",
             "name": "0x235042E6"
         },
         {
             "link": "Ignore_Unlocks_Enabled",
             "name": "0xD1BE1707"
+        },
+        {
+            "link": "Move_Objects_Enabled",
+            "name": "0xF651F06F"
+        },
+        {
+            "link": "Show_Live_Enabled",
+            "name": "0xA083F4BF"
         }
     ]
 }

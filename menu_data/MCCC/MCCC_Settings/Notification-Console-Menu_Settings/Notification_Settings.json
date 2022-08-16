@@ -2,14 +2,6 @@
     "title": "0xFDEB7EBB",
     "items": [
         {
-            "link": "Show_Notifications",
-            "name": "0x3CEF8F8E"
-        },
-        {
-            "link": "Show_Version_Update_Notifications",
-            "name": "0x9FE1BCE1"
-        },
-        {
             "link": "Aging-Death_Notifications",
             "name": "0xB2FF54B1"
         },
@@ -20,6 +12,22 @@
         {
             "link": "MC_Pregnancy_Notifications",
             "name": "0x10BEA957"
+        },
+        {
+            "link": "Neighborhood_Stories_Settings",
+            "name": "0xE5AFE07C"
+        },
+        {
+            "link": "Show_Club_Monitor_Notifications",
+            "name": "0x3B33C9D0"
+        },
+        {
+            "link": "Show_Notifications",
+            "name": "0x3CEF8F8E"
+        },
+        {
+            "link": "Show_Version_Update_Notifications",
+            "name": "0x9FE1BCE1"
         }
     ]
 }

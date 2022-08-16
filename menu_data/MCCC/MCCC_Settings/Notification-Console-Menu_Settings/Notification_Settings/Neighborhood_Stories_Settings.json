@@ -1,0 +1,29 @@
+{
+    "title": "0xE5AFE07C",
+    "items": [
+        {
+            "link": "Show_Adoption_Types",
+            "name": "0x1B4D98B1"
+        },
+        {
+            "link": "Show_Career_Types",
+            "name": "0x288BBAD0"
+        },
+        {
+            "link": "Show_Death_Types",
+            "name": "0x5B2CB1C3"
+        },
+        {
+            "link": "Show_Pet_Adoptions",
+            "name": "0x5A28BBCC"
+        },
+        {
+            "link": "Show_Population_Types",
+            "name": "0x26F23246"
+        },
+        {
+            "link": "Show_Pregnancy_Types",
+            "name": "0x448CDFCF"
+        }
+    ]
+}

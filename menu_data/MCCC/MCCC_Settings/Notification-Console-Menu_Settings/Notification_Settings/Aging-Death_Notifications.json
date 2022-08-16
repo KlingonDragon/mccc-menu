@@ -10,12 +10,12 @@
             "name": "0x17C768BF"
         },
         {
-            "link": "Show_Pet_Death_Notifications",
-            "name": "0xEB5FFCEB"
-        },
-        {
             "link": "Show_NPC_Birthday_Notifications",
             "name": "0xAFAEC49E"
+        },
+        {
+            "link": "Show_Pet_Death_Notifications",
+            "name": "0xEB5FFCEB"
         }
     ]
 }

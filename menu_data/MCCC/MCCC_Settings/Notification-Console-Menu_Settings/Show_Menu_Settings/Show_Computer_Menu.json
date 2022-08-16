@@ -1,18 +1,16 @@
 {
     "title": "0x8EC70E88",
     "desc": "0x6B8D7DC8",
+    "default": "all",
     "items": [
         {
-            "link": "self",
             "name": "all"
         },
         {
-            "link": "self",
-            "name": "0xF73E588E"
+            "name": "0x0551FBB3"
         },
         {
-            "link": "self",
-            "name": "none"
+            "name": "0xD9B190DC"
         }
     ]
 }

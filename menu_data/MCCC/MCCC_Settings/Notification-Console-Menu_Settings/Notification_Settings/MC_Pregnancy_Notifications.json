@@ -2,20 +2,20 @@
     "title": "0x10BEA957",
     "items": [
         {
-            "link": "Show_Birth_Notifications",
-            "name": "0x407EA264"
-        },
-        {
             "link": "Show_Birth_Notification_Details",
             "name": "0x2BFDE55D"
         },
         {
-            "link": "Show_Pregnancy_Notifications",
-            "name": "0x2376178A"
+            "link": "Show_Birth_Notifications",
+            "name": "0x407EA264"
         },
         {
             "link": "Show_Marriage_Notifications",
             "name": "0x87EE6E44"
+        },
+        {
+            "link": "Show_Pregnancy_Notifications",
+            "name": "0x2376178A"
         },
         {
             "link": "Show_Relationship_Changes",

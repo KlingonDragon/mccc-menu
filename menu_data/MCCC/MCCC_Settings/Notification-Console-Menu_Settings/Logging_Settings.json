@@ -2,16 +2,16 @@
     "title": "0x196F81AB",
     "items": [
         {
-            "link": "Message_Logging",
-            "name": "0xDB6CB489"
-        },
-        {
             "link": "Append_To_Logfile",
             "name": "0x5D75281F"
         },
         {
             "link": "Less_LE_Notifications",
             "name": "0x378B1EF1"
+        },
+        {
+            "link": "Message_Logging",
+            "name": "0xDB6CB489"
         }
     ]
 }

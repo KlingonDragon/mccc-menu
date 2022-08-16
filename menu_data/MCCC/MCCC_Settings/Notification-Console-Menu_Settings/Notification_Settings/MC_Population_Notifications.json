@@ -2,12 +2,12 @@
     "title": "0x9F8F4865",
     "items": [
         {
-            "link": "Show_Moving_Notifications",
-            "name": "0x966BBE9A"
-        },
-        {
             "link": "Show_Empty_House_Notifications",
             "name": "0xCA3CEC65"
+        },
+        {
+            "link": "Show_Moving_Notifications",
+            "name": "0x966BBE9A"
         }
     ]
 }
