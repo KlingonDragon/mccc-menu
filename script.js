@@ -192,7 +192,7 @@ function search(searchtext) {
     searchXHR.send();
 }
 function versionInfo() {
-    Promise.all([fetch('/version.php'), new Promise(resolve=>queueMicrotask(resolve))]).then((response,wait) => response.json()).then(data => {
+    Promise.all([fetch('/version.php'), new Promise(resolve=>queueMicrotask(resolve))]).then(([response,wait]) => response.json()).then(data => {
         $(`output#version_mccc`).outerHTML = data.mccc;
         $(`output#version_sims`).outerHTML = data.sims;
     }).catch(error => {
