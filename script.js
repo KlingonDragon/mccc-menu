@@ -192,10 +192,10 @@ function search(searchtext) {
     searchXHR.send();
 }
 function versionInfo() {
-    Promise.all([fetch('/version.php'), new Promise(resolve=>queueMicrotask(resolve))]).then(([response,wait]) => response.json()).then(data => {
+    fetch('/version.php').then(response => response.json()).then(data => queueMicrotask(()=>{
         $(`output#version_mccc`).outerHTML = data.mccc;
         $(`output#version_sims`).outerHTML = data.sims;
-    }).catch(error => {
+    })).catch(error => {
         console.error(`versionInfo() - Fetch Error:`, error)
     });
     return `<get-string>mccc_version</get-string> <output id="version_mccc"></output><br/><get-string>sims_version</get-string> <output id="version_sims"></output><br/>`
